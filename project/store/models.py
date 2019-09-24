@@ -16,21 +16,8 @@ class Category(models.Model):
     def __str__(self):
         return self.name
 
-
-class Article(models.Model):
-
-    title = models.CharField(max_length=350, verbose_name='Заголовок')
-    content = RichTextUploadingField(verbose_name='Контент')
-    published = models.DateField(verbose_name='Дата публикации')
-    category = models.OneToOneField(Category, on_delete=models.CASCADE, verbose_name='Категория')
-
-    class Meta:
-        verbose_name = 'Статья'
-        verbose_name_plural = 'Статьи'
-        ordering = ['-published', ]
-
-    def __str__(self):
-        return self.title
+    def get_absolut_url(self):
+        return f'/store/category/{self.pk}'
 
 
 class Product(models.Model):
@@ -39,9 +26,9 @@ class Product(models.Model):
     # title = models.CharField(max_length=150, verbose_name='Название продукта')
     disc = models.TextField(verbose_name='Описание')
     price = models.IntegerField(verbose_name='Стоимость')
-    image = models.ImageField(null=True, blank=True, width_field='120', upload_to='images/', verbose_name='Изображение')
+    image = models.ImageField(null=True, blank=True, upload_to='images/', verbose_name='Изображение')
     category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='products')
-    article = models.ForeignKey(Article, on_delete=models.CASCADE, related_name='products')
+    # article = models.ForeignKey(Article, on_delete=models.CASCADE, related_name='products')
 
     class Meta:
         verbose_name = 'Товар'
@@ -50,6 +37,26 @@ class Product(models.Model):
 
     def __str__(self):
         return f'{self.brand} {self.model}'
+
+    def get_absolut_url(self):
+        return f'/store/products/{self.pk}'
+
+
+class Article(models.Model):
+
+    title = models.CharField(max_length=350, verbose_name='Заголовок')
+    content = RichTextUploadingField(verbose_name='Контент')
+    published = models.DateField(verbose_name='Дата публикации')
+    # category = models.OneToOneField(Category, on_delete=models.CASCADE, verbose_name='Категория')
+    products = models.ManyToManyField(Product, verbose_name='Товары')
+
+    class Meta:
+        verbose_name = 'Статья'
+        verbose_name_plural = 'Статьи'
+        ordering = ['-published', ]
+
+    def __str__(self):
+        return self.title
 
 
 
