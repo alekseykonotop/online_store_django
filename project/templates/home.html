@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+    <main role="main">
+    <!--    делаем цикло по статьям-->
+      {% for article in articles %}
+        <div class="jumbotron">
+          <div class="container">
+            <h1 class="display-4">{{ article.title }}</h1>
+            <p>{{ article.content }}</p>
+          </div>
+        </div>
+        {% if article.products %}
+            <div class="container mb-5">
+            <!-- Example row of columns -->
+            <div class="row">
+                {% for prod in article.products.all %}
+                    <div class="col-md-4">
+                      <h2>{{ prod.brand }} {{ prod.model }}</h2>
+
+                      <a href={{ prod.get_absolut_url }}>
+                          <img src="./static/nexus5x.webp" width="180">
+                      </a>
+                      <p>Стоимость: {{ prod.price }} руб.</p>
+    <!--                    РЕАЛИЗОВАТЬ ФОРМУ ЗАКАЗА-->
+    <!--                  <form>-->
+    <!--                      <input type="submit" class="btn btn-secondary" value="Добавить в корзину »">-->
+    <!--                  </form>-->
+                    </div>
+                {% endfor %}
+        {% endif %}
+      {% endfor %}
+
+    </main>
+{% endblock %}
