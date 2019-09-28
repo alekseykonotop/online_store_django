@@ -52,10 +52,13 @@
            href="./cart.html">
           Корзина</a>
 
-
-        <a class="btn btn-outline-success my-2 my-sm-0" role="button"
-           href="./login.html">
-          Войти</a>
+        {% if user.is_authenticated %}
+          <a class="btn btn-outline-success my-2 my-sm-0" role="button"
+             href="./logout.html">Выйти</a>
+        {% else %}
+          <a class="btn btn-outline-success my-2 my-sm-0" role="button"
+             href="./login.html">Войти</a>
+        {% endif %}
 
       </div>
     </nav>
