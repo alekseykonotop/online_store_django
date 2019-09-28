@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Category, Article, Product
+from .models import Category, Brand, Article, Product
 from .forms import ArticleAdminForm
 
 # Register your models here.
@@ -12,6 +12,15 @@ class CategoryAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Category, CategoryAdmin)
+
+
+class BrandAdmin(admin.ModelAdmin):
+    list_display = ('name', 'slug', )
+    search_fields = ('name', )
+    prepopulated_fields = {'slug': ('name',)}
+
+
+admin.site.register(Brand, BrandAdmin)
 
 
 class ArticleAdmin(admin.ModelAdmin):
