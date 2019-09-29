@@ -7,6 +7,8 @@ from ckeditor_uploader.fields import RichTextUploadingField
 class Category(models.Model):
     name = models.CharField(max_length=150, verbose_name='Название категории')
     slug = models.SlugField(max_length=200, unique=True)
+    parent = models.ForeignKey('self', on_delete=models.SET_NULL, null=True,
+                               blank=True, verbose_name='Родительская категория')
 
     class Meta:
         ordering = ['name', ]
@@ -61,7 +63,7 @@ class Product(models.Model):
         return f'{self.brand} {self.model}'
 
     def get_absolut_url(self):
-        return f'/store/products/{self.pk}'
+        return f'/store/products/detail/{self.pk}'
 
 
 class Article(models.Model):

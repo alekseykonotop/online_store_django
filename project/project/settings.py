@@ -39,8 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'ckeditor',
     'ckeditor_uploader',
-    'store',
     'bootstrap4',
+    'store',
+    'cart',
 ]
 
 MIDDLEWARE = [
@@ -138,3 +139,6 @@ CKEDITOR_CONFIGS = {
         'toolbar': 'full',
     },
 }
+
+# Cart
+CART_SESSION_ID = 'cart'

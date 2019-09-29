@@ -16,17 +16,18 @@
             <div class="container mb-5">
             <!-- Example row of columns -->
             <div class="row">
-                {% for prod in article.products.all %}
+                {% for product in article.products.all %}
                     <div class="col-md-4">
-                      <h2>{{ prod.brand }} {{ prod.model }}</h2>
-                      <a href={{ prod.get_absolut_url }}>
-                          <img src="{{ prod.image.url }}" width="180">
+                      <h2>{{ product.brand }} {{ product.model }}</h2>
+                      <a href={{ product.get_absolut_url }}>
+                          <img src="{{ product.image.url }}" width="180">
                       </a>
-                      <p>Стоимость: {{ prod.price }} руб.</p>
-    <!--                    РЕАЛИЗОВАТЬ ФОРМУ ЗАКАЗА-->
-    <!--                  <form>-->
-    <!--                      <input type="submit" class="btn btn-secondary" value="Добавить в корзину »">-->
-    <!--                  </form>-->
+                      <p>Стоимость: {{ product.price }} руб.</p>
+                      <form action="{% url "cart:cart_add" product.id %}" method="post">
+                        {{ cart_product_form }}
+                        {% csrf_token %}
+                        <input type="submit" class="btn btn-secondary" value="Добавить в корзину">
+                      </form>
                     </div>
                 {% endfor %}
         {% endif %}

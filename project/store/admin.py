@@ -6,8 +6,8 @@ from .forms import ArticleAdminForm
 
 
 class CategoryAdmin(admin.ModelAdmin):
-    list_display = ('name', 'slug', )
-    search_fields = ('name', )
+    list_display = ('name', 'slug', 'parent', )
+    search_fields = ('name', 'parent', )
     prepopulated_fields = {'slug': ('name',)}
 
 
