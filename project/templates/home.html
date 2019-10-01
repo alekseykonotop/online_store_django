@@ -18,7 +18,7 @@
             <div class="row">
                 {% for product in article.products.all %}
                     <div class="col-md-4">
-                      <h2>{{ product.brand }} {{ product.model }}</h2>
+                      <h2>{{ product }}</h2>
                       <a href={{ product.get_absolut_url }}>
                           <img src="{{ product.image.url }}" width="180">
                       </a>

@@ -15,11 +15,13 @@
     <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-12">
-        <h2>Nexus 5x</h2>
+        <br>
+        <h2>{{ product }}</h2>
 
-        <img src="./static/nexus5x.webp" width="120">
+        <img src="{{ product.image.url }}" width="120">
 
-        <p>Неплохой телефон</p>
+        <p>{{ product.description }}</p>
+        <p>Стоимость: {{ product.price }} руб.</p>
         <form method="post" action="./cart/">
           <input type="hidden" name="csrfmiddlewaretoken"
                  value="N4vcBqzjoYkU7OTDuAT8hq8srpvYX44nJsswuP7e3EYg0Hq8DgxuR0eiXWbSr5RZ">

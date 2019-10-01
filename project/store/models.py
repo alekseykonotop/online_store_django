@@ -83,6 +83,12 @@ class Article(models.Model):
         return self.title
 
 
+class Feedback(models.Model):
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='feedbacks')
+    name = models.CharField(max_length=150, verbose_name='Имя', default='Аноним')
+    text = models.TextField(verbose_name='Отзыв на товар')
+    score = models.IntegerField(verbose_name='Оценка') # для хранения информации о кол-ве присовенных звезд
+
 
 
 
