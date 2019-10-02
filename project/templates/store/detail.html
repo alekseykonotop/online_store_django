@@ -44,7 +44,7 @@
       <div class="col-lg-6 col-md-8 col-sm-12">
         <h4>Оставте отзыв:</h4>
 
-        <form action="./merch/1/feedback" method="post">
+        <form action="./{{ product.pk }}/feedback" method="post">
           <input type="hidden" name="csrfmiddlewaretoken"
                  value="N4vcBqzjoYkU7OTDuAT8hq8srpvYX44nJsswuP7e3EYg0Hq8DgxuR0eiXWbSr5RZ">
           <div class="form-group">
