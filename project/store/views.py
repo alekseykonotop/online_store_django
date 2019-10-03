@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.views.generic.base import TemplateView
+from django.views.generic.edit import FormView
 from django.urls import reverse
 from .models import Category, Product, Article
 from .forms import FeedbackForm
@@ -49,7 +50,7 @@ def product_detail(request, product_id):
     return render(request, 'store/detail.html', {'product': product})
 
 
-def FeedbackAddView(FormView):
+class FeedbackAddView(FormView):
     template_name = 'store/detail.html'
     form_class = FeedbackForm
 
@@ -66,7 +67,7 @@ def FeedbackAddView(FormView):
 
         return self.object
 
-    def get_succes_url(self):
+    def get_success_url(self):
 
         return reverse('store:product_detail',
                        kwargs={'product_id': self.object.cleaned_data['product'].pk})
