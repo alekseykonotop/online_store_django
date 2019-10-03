@@ -2,14 +2,15 @@ from django.shortcuts import render, get_object_or_404
 from django.views.generic.base import TemplateView
 from django.views.generic.edit import FormView
 from django.urls import reverse
-from .models import Category, Product, Article
+from .models import Category, Product, Article, Feedback
 from .forms import FeedbackForm
+from django.views import generic
 from cart.forms import CartAddProductForm
 
 # Create your views here.
 
 
-class HomePageView(TemplateView):
+class IndexView(TemplateView):
     template_name = 'home.html'
 
     def get_context_data(self, *args, **kwargs):
@@ -42,12 +43,28 @@ class ShowProductView(TemplateView):
         return context
 
 
-def product_detail(request, product_id):
-    product = get_object_or_404(Product,
-                                id=product_id,
-                                available=True)
+# def product_detail(request, product_id):
+#     product = get_object_or_404(Product,
+#                                 id=product_id,
+#                                 available=True)
+#
+#     return render(request, 'store/detail.html', {'product': product})
 
-    return render(request, 'store/detail.html', {'product': product})
+
+class ProductDetailView(generic.DetailView):
+    template_name = 'store/detail.html'
+    model = Product
+
+    def get_context_data(self, *args, **kwargs):
+        context = super().get_context_data(*args, **kwargs)
+        context['main_categories'] = Category.objects.filter(parent__isnull=True)
+        # object = self.get_object()
+        product_id = Product.objects.get(pk=self.object.pk)
+        print(f'self.object.pk ===> {self.object.pk}')
+        context['feedbacks'] = Feedback.objects.filter(product=product_id)
+        print(f'feedbacks ==> {context["feedbacks"]}')
+
+        return context
 
 
 class FeedbackAddView(FormView):
@@ -56,6 +73,8 @@ class FeedbackAddView(FormView):
 
     def get_context_data(self, *args, **kwargs):
         context = super().get_context_data(*args, **kwargs)
+        context['main_categories'] = Category.objects.filter(parent__isnull=True)
+        context['feedbacks'] = Feedback.objects.filter(pk=self.object.cleaned_data['product'].pk)
         return context
 
     def form_valid(self, form):
@@ -71,3 +90,16 @@ class FeedbackAddView(FormView):
 
         return reverse('store:product_detail',
                        kwargs={'product_id': self.object.cleaned_data['product'].pk})
+
+
+
+
+class CategoryListView(generic.ListView):
+    model = Category
+    paginate_by = 10
+
+
+class CategoryDetailView(generic.DetailView):
+    model = Category
+
+

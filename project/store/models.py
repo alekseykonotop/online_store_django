@@ -19,7 +19,7 @@ class Category(models.Model):
         return self.name
 
     def get_absolut_url(self):
-        return f'/store/category/{self.pk}'
+        return f'category/{self.pk}'
 
 
 class Brand(models.Model):
@@ -63,7 +63,7 @@ class Product(models.Model):
         return f'{self.brand} {self.model}'
 
     def get_absolut_url(self):
-        return f'/store/products/detail/{self.pk}'
+        return f'product/{self.pk}'
 
 
 class Article(models.Model):
@@ -88,6 +88,11 @@ class Feedback(models.Model):
     name = models.CharField(max_length=150, verbose_name='Имя', default='Аноним')
     text = models.TextField(verbose_name='Отзыв на товар')
     rating = models.IntegerField(verbose_name='Оценка')  # для хранения информации о кол-ве присовенных звезд
+
+    class Meta:
+        verbose_name = 'Отзыв'
+        verbose_name_plural = 'Отзывы'
+        ordering = ['pk', ]
 
 
 

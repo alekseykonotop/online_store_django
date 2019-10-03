@@ -31,12 +31,26 @@
       </div>
     </div>
     <hr>
+    {% for fb in feedbacks %}
+        {% if fb.rating == 5 %}
+            ★★★★★ <span>{{ fb.name }}</span>
+        {% elif fb.rating == 4 %}
+            ★★★★ <span>{{ fb.name }}</span>
+        {% elif fb.rating == 3 %}
+            ★★★ <span>{{ fb.name }}</span>
+        {% elif fb.rating == 2 %}
+            ★★ <span>{{ fb.name }}</span>
+        {% elif fb.rating == 1 %}
+            ★ <span>{{ fb.name }}</span>
+        {% endif %}
+        <p>{{ fb.text }}</p>
+    {% endfor %}
 
-    ★★★★★ <span>Вася</span>
-    <p> Хороший отзыв</p>
+<!--    ★★★★★ <span>Вася</span>-->
+<!--    <p> Хороший отзыв</p>-->
 
-    ★★ <span>Петя</span>
-    <p> Плохой отзыв</p>
+<!--    ★★ <span>Петя</span>-->
+<!--    <p> Плохой отзыв</p>-->
 
     <hr>
 
@@ -44,7 +58,7 @@
       <div class="col-lg-6 col-md-8 col-sm-12">
         <h4>Оставте отзыв:</h4>
 
-        <form action="./{{ product.pk }}/feedback" method="post">
+        <form action="./{{ product.pk }}/add_feedback" method="post">
           <input type="hidden" name="csrfmiddlewaretoken"
                  value="N4vcBqzjoYkU7OTDuAT8hq8srpvYX44nJsswuP7e3EYg0Hq8DgxuR0eiXWbSr5RZ">
           <div class="form-group">

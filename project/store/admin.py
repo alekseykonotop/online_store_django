@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Category, Brand, Article, Product
+from .models import Category, Brand, Article, Product, Feedback
 from .forms import ArticleAdminForm
 
 # Register your models here.
@@ -47,3 +47,11 @@ class ProductAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Product, ProductAdmin)
+
+
+class FeedbackAdmin(admin.ModelAdmin):
+    list_display = ('product', 'name', 'text', 'rating', )
+    search_fields = ('product', 'rating', )
+
+
+admin.site.register(Feedback, FeedbackAdmin)
