@@ -21,10 +21,10 @@ PRODUCT_RATING = (
 
 
 class FeedbackForm(forms.ModelForm):
-    name = forms.CharField(label='Имя', help_text='Укажите ваше имя')
-    text = forms.CharField(label='Отзыв', widget=forms.widgets.Textarea(), help_text='Напишите ваш отзыв')
-    rating = forms.ChoiceField(choices=PRODUCT_RATING, widget=forms.RadioSelect())
+    name = forms.CharField(label='Имя')
+    text = forms.CharField(label='Отзыв', widget=forms.widgets.Textarea())
+    rating = forms.ChoiceField(label='Оценка', choices=PRODUCT_RATING, widget=forms.RadioSelect())
 
     class Meta:
         model = Feedback
-        fields = ('name', 'text', 'rating')
+        exclude = ['product']

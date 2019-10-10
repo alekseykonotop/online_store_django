@@ -1,8 +1,6 @@
 from django.db import models
 from ckeditor_uploader.fields import RichTextUploadingField
 
-# Create your models here.
-
 
 class Category(models.Model):
     name = models.CharField(max_length=150, verbose_name='Название категории')
@@ -41,6 +39,7 @@ class Brand(models.Model):
 def image_forlder(instance, filename):
     filename = f"{instance.slug}.{filename.split('.')[1]}"
     return f'images/products/{instance.slug}/{filename}'
+
 
 class Product(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE, related_name='products')
