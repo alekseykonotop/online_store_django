@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    Category
+{% endblock %}
+
+{% block content %}
+  <main role="main">
+      <br>
+      <br>
+      <br>
+
+
+  <div class="container">
+    <!-- Example row of columns -->
+
+    <h1>{{ category.name }}</h1>
+
+    <div class="row">
+
+      {% for product in products %}
+        <div class="col-md-4">
+          <h2>{{ product }}</h2>
+
+          <a href="{{ product.get_absolut_url }}">
+
+            <img src="{{ product.image.url }}" width="180">
+
+          </a>
+
+
+        </div>
+      {% endfor %}
+
+    </div> <!-- /container -->
+
+  </div>
+</main>
+{% endblock %}

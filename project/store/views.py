@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.views.generic.base import TemplateView
+from django.views.generic.list import ListView
 from django.views.generic.edit import FormView, CreateView
 from django.urls import reverse
 from .models import Category, Product, Article, Feedback
@@ -34,3 +35,17 @@ def product_detail(request, pk):
     context['form'] = FeedbackForm()
 
     return render(request, template_name, context)
+
+
+class CategoryView(ListView):
+    template_name = 'store/category.html'
+    context_object_name = 'products'
+
+    def get_queryset(self):
+        return Product.objects.filter(category=self.kwargs['pk'])
+
+    def get_context_data(self, *args, **kwargs):
+        context = super().get_context_data(*args, **kwargs)
+        context['main_categories'] = Category.objects.filter(parent__isnull=True)
+
+        return context
