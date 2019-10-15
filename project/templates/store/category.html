@@ -16,24 +16,47 @@
     <!-- Example row of columns -->
 
     <h1>{{ category.name }}</h1>
-
-    <div class="row">
-
-      {% for product in products %}
-        <div class="col-md-4">
-          <h2>{{ product }}</h2>
-
-          <a href="{{ product.get_absolut_url }}">
-
-            <img src="{{ product.image.url }}" width="180">
-
-          </a>
-
-
+    {% if products %}
+      <div class="row">
+          {% for product in products %}
+            <div class="col-md-4">
+              <h2>{{ product }}</h2>
+              <a href="{{ product.get_absolut_url }}">
+                <img src="{{ product.image.url }}" width="180">
+              </a>
+              <p>Стоимость: {{ product.price }} руб.</p>
+              <form method="post" action="./cart/">
+                <input type="hidden" name="csrfmiddlewaretoken"
+                     value="N4vcBqzjoYkU7OTDuAT8hq8srpvYX44nJsswuP7e3EYg0Hq8DgxuR0eiXWbSr5RZ">
+                <input type="hidden" name="merchandise_id" value="1">
+                <input type="submit" class="btn btn-secondary" value="Добавить в корзину »">
+              </form>
+            </div>
+          {% endfor %}
+      </div> <!-- /container -->
+      <br>
+      <br>
+      <br>
+      {% if is_paginated %}
+        <div class="pagination">
+            <span class="page-links">
+                {% if page_obj.has_previous %}
+                    <a href="?page={{ page_obj.previous_page_number }}">Назад</a>
+                {% endif %}
+                <span class="page-current">
+                    Страница {{ page_obj.number }} из {{ page_obj.paginator.num_pages }}.
+                </span>
+                {% if page_obj.has_next %}
+                    <a href="?page={{ page_obj.next_page_number }}">Следующая</a>
+                {% endif %}
+            </span>
         </div>
-      {% endfor %}
+    {% endif %}
+    {% else %}
+      <p>В этом разделе пока ничего нет!!! :(</p>
+    {% endif %}
 
-    </div> <!-- /container -->
+
 
   </div>
 </main>

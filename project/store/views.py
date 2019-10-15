@@ -40,6 +40,7 @@ def product_detail(request, pk):
 class CategoryView(ListView):
     template_name = 'store/category.html'
     context_object_name = 'products'
+    paginate_by = 3
 
     def get_queryset(self):
         return Product.objects.filter(category=self.kwargs['pk'])
