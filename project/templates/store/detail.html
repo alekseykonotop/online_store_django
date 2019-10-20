@@ -7,7 +7,6 @@
 
 {% block content %}
 <main role="main">
-
   <div class="container mt-3">
     <div class="row">
       <div class="col-md-12">
@@ -17,12 +16,11 @@
         <img src="{{ product.image.url }}" width="120">
 
         <p>{{ product.description }}</p>
-        <p>Стоимость: {{ product.price }} руб.</p>
-        <form method="post" action="./cart/">
-          <input type="hidden" name="csrfmiddlewaretoken"
-                 value="N4vcBqzjoYkU7OTDuAT8hq8srpvYX44nJsswuP7e3EYg0Hq8DgxuR0eiXWbSr5RZ">
-          <input type="hidden" name="merchandise_id" value="1">
-          <input type="submit" class="btn btn-secondary" value="Добавить в корзину »">
+        <p class="price">Стоимость: {{ product.price }} руб.</p>
+        <form action="{% url 'cart:cart_add' product.id %}" method="post">
+            {% csrf_token %}
+            {{ cart_product_form }}
+            <input type="submit" class="btn btn-secondary" value="Добавить в карзину">
         </form>
       </div>
     </div>
@@ -41,14 +39,11 @@
         {% endif %}
         <p>{{ fb.text }}</p>
     {% endfor %}
-
     <hr>
 
     <div class="row">
       <div class="col-lg-6 col-md-8 col-sm-12">
         <h4>Оставьте отзыв:</h4>
-
-
         <form action="" method="POST">
           {% csrf_token %}
           <table>
@@ -65,18 +60,11 @@
             {{ form.text.help_text }}</p>
             <p>{{ form.rating.label_tag }}<br>{{ form.rating }}
             {{ form.rating.help_text }}</p>
-
           </table>
           <input type="submit" value="Добавить отзыв">
         </form>
-
       </div>
     </div>
-
   </div>
-
-
 </main>
-
-
 {% endblock %}

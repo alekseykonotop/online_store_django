@@ -23,11 +23,6 @@
                           <img src="{{ product.image.url }}" width="180">
                       </a>
                       <p>Стоимость: {{ product.price }} руб.</p>
-                      <form action="{% url "cart:cart_add" product.id %}" method="post">
-                        {{ cart_product_form }}
-                        {% csrf_token %}
-                        <input type="submit" class="btn btn-secondary" value="Добавить в корзину">
-                      </form>
                     </div>
                 {% endfor %}
         {% endif %}

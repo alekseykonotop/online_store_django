@@ -13,7 +13,7 @@ class Cart(object):
         self.session = request.session
         cart = self.session.get(settings.CART_SESSION_ID)
         if not cart:
-            # Если корзина еще не создана, создает пустую корзину
+            # Если корзина еще не создана, создаем пустую корзину
             cart = self.session[settings.CART_SESSION_ID] = {}
         self.cart = cart
 

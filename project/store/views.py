@@ -1,10 +1,9 @@
 from django.shortcuts import render, get_object_or_404
 from django.views.generic.base import TemplateView
 from django.views.generic.list import ListView
-from django.views.generic.edit import FormView, CreateView
-from django.urls import reverse
 from .models import Category, Product, Article, Feedback
 from .forms import FeedbackForm
+from cart.forms import CartAddProductForm
 
 
 class IndexView(TemplateView):
@@ -25,6 +24,8 @@ def product_detail(request, pk):
     context['product'] = product
     context['main_categories'] = Category.objects.filter(parent__isnull=True)
     context['feedbacks'] = Feedback.objects.filter(product=product)
+    cart_product_form = CartAddProductForm()
+    context['cart_product_form'] = cart_product_form
 
     if request.method == 'POST':
         f = FeedbackForm(request.POST)
@@ -48,5 +49,7 @@ class CategoryView(ListView):
     def get_context_data(self, *args, **kwargs):
         context = super().get_context_data(*args, **kwargs)
         context['main_categories'] = Category.objects.filter(parent__isnull=True)
+        cart_product_form = CartAddProductForm()
+        context['cart_product_form'] = cart_product_form
 
         return context

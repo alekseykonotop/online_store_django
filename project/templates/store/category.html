@@ -7,33 +7,25 @@
 
 {% block content %}
   <main role="main">
-      <br>
-      <br>
-      <br>
-
-
   <div class="container">
-    <!-- Example row of columns -->
-
     <h1>{{ category.name }}</h1>
     {% if products %}
       <div class="row">
           {% for product in products %}
             <div class="col-md-4">
               <h2>{{ product }}</h2>
-              <a href="{{ product.get_absolut_url }}">
+              <a href="{% url 'store:product_detail' product.id %}">
                 <img src="{{ product.image.url }}" width="180">
               </a>
               <p>Стоимость: {{ product.price }} руб.</p>
-              <form method="post" action="./cart/">
-                <input type="hidden" name="csrfmiddlewaretoken"
-                     value="N4vcBqzjoYkU7OTDuAT8hq8srpvYX44nJsswuP7e3EYg0Hq8DgxuR0eiXWbSr5RZ">
-                <input type="hidden" name="merchandise_id" value="1">
-                <input type="submit" class="btn btn-secondary" value="Добавить в корзину »">
+              <form action="{% url 'cart:cart_add' product.id %}" method="post">
+                {% csrf_token %}
+                {{ cart_product_form }}
+                <input type="submit" class="btn btn-secondary" value="Добавить в карзину">
               </form>
             </div>
           {% endfor %}
-      </div> <!-- /container -->
+      </div>
       <br>
       <br>
       <br>
@@ -51,13 +43,10 @@
                 {% endif %}
             </span>
         </div>
-    {% endif %}
+      {% endif %}
     {% else %}
       <p>В этом разделе пока ничего нет!!! :(</p>
     {% endif %}
-
-
-
   </div>
 </main>
 {% endblock %}

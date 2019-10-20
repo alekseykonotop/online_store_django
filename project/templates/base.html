@@ -34,23 +34,23 @@
           {% for main_category in main_categories %}
               <li class="nav-item dropdown">
                   {% if main_category.category_set.all %}
-                      <a class="nav-link dropdown-toggle" href="{{ main_category.get_absolut_url }}" id="dropdown01"
+                      <a class="nav-link dropdown-toggle" href="{% url 'store:category_detail' main_category.id %}" id="dropdown01"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ main_category.name }}</a>
                   {% else %}
-                      <a class="nav-link" href="{{ main_category.get_absolut_url }}">{{ main_category.name }}</a>
+                      <a class="nav-link" href="{% url 'store:category_detail' main_category.id %}">{{ main_category.name }}</a>
                   {% endif %}
 
                 <div class="dropdown-menu" aria-labelledby="dropdown01">
-                    <a class="dropdown-item" href="{{ main_category.get_absolut_url }}">{{ main_category.name }}</a>
+                    <a class="dropdown-item" href="{% url 'store:category_detail' main_category.id %}">{{ main_category.name }}</a>
                     {% for child in main_category.category_set.all %}
-                        <a class="dropdown-item" href="{{ child.get_absolut_url }}">{{ child.name }}</a>
+                        <a class="dropdown-item" href="{% url 'store:category_detail' child.id %}">{{ child.name }}</a>
                     {% endfor %}
                 </div>
               </li>
           {% endfor %}
         </ul>
         <a class="btn btn-outline-success my-2 my-sm-0" role="button"
-           href="./cart.html">
+           href="/cart/">
           Корзина</a>
 
         {% if user.is_authenticated %}
@@ -63,8 +63,8 @@
 
       </div>
     </nav>
-
-
+    <br>
+    <br>
       {% block content %}
       {% endblock %}
 
