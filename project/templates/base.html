@@ -49,9 +49,16 @@
               </li>
           {% endfor %}
         </ul>
-        <a class="btn btn-outline-success my-2 my-sm-0" role="button"
-           href="/cart/">
-          Корзина</a>
+          {% with total_items=cart|length %}
+            {% if cart|length > 0 %}
+              <a class="btn btn-outline-success my-2 my-sm-0" role="button"
+                 href="/cart/">Корзина: {{ cart.get_total_price }} руб.</a>
+            {% else %}
+              <a class="btn btn-outline-success my-2 my-sm-0" role="button"
+                href="/cart/">Корзина</a>
+            {% endif %}
+          {% endwith %}
+
 
         {% if user.is_authenticated %}
           <a class="btn btn-outline-success my-2 my-sm-0" role="button"
