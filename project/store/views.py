@@ -12,7 +12,6 @@ class IndexView(TemplateView):
     def get_context_data(self, *args, **kwargs):
         context = super().get_context_data(*args, **kwargs)
         context['articles'] = Article.objects.filter(is_active=True)
-        context['main_categories'] = Category.objects.filter(parent__isnull=True)
 
         return context
 
@@ -22,7 +21,6 @@ def product_detail(request, pk):
     template_name = 'store/detail.html'
     product = get_object_or_404(Product, id=pk, available=True)
     context['product'] = product
-    context['main_categories'] = Category.objects.filter(parent__isnull=True)
     context['feedbacks'] = Feedback.objects.filter(product=product)
     cart_product_form = CartAddProductForm()
     context['cart_product_form'] = cart_product_form
@@ -48,7 +46,6 @@ class CategoryView(ListView):
 
     def get_context_data(self, *args, **kwargs):
         context = super().get_context_data(*args, **kwargs)
-        context['main_categories'] = Category.objects.filter(parent__isnull=True)
         cart_product_form = CartAddProductForm()
         context['cart_product_form'] = cart_product_form
 

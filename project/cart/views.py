@@ -9,11 +9,9 @@ from .forms import CartAddProductForm
 def cart_add(request, product_id):
     cart = Cart(request)
     product = get_object_or_404(Product, id=product_id)
-    print(f'product ==> {product}')
     form = CartAddProductForm(request.POST)
     if form.is_valid():
         cd = form.cleaned_data
-        print(f'quantity ==> {cd["quantity"]}, need_update ==> {cd["update"]}',)
         cart.add(product=product,
                  quantity=cd['quantity'],
                  update_quantity=cd['update'])
@@ -32,6 +30,5 @@ def cart_remove(request, product_id):
 def cart_detail(request):
     context = {}
     context['cart'] = Cart(request)
-    context['main_categories'] = Category.objects.filter(parent__isnull=True)
 
     return render(request, 'cart/detail.html', context)
