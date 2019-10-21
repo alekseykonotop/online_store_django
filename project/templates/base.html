@@ -52,7 +52,7 @@
           {% with total_items=cart|length %}
             {% if cart|length > 0 %}
               <a class="btn btn-outline-success my-2 my-sm-0" role="button"
-                 href="/cart/">Корзина: {{ cart.get_total_price }} руб.</a>
+                 href="/cart/">В корзине есть товары на сумму: {{ cart.get_total_price }} руб.</a>
             {% else %}
               <a class="btn btn-outline-success my-2 my-sm-0" role="button"
                 href="/cart/">Корзина</a>
