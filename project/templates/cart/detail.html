@@ -38,12 +38,10 @@
           {% endfor %}
       </ul>
 
-<!--      <form class="card p-2">-->
-<!--        <button type="submit" class="btn btn-secondary">Заказать</button>-->
-<!--      </form>-->
-      <a class="btn btn-secondary" href="{% url 'orders:order_create' %}">
-        Заказать
-      </a>
+      <form class="card p-2" action="{% url 'orders:order_create' %}" method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-secondary">Заказать</button>
+      </form>
     </div>
   </div>
 </div>

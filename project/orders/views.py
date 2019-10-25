@@ -10,15 +10,15 @@ def order_create(request):
         form = OrderCreateForm(request.POST)
         if form.is_valid():
             order = form.save(commit=False)
-            order.user = request.get('user')
+            order.user = request.user
             order.save()
             for item in cart:
                 OrderItem.objects.create(order=order,
                                          product=item['product'],
                                          price=item['price'],
                                          quantity=item['quantity'])
-            cart.clear()
+            cart.clean()
 
-            return render(request, 'order/created.html')  # В created.html сообщение "Заказ успешно создан"
+            return render(request, 'order/created.html')
 
 
