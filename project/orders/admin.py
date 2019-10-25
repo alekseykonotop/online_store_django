@@ -8,10 +8,14 @@ class OrderItemInline(admin.TabularInline):
 
 
 class OrderAdmin(admin.ModelAdmin):
-    list_display = ['id', 'first_name', 'last_name', 'address',
-                    'paid', 'created', 'updated']
-    list_filter = ['paid', 'created', 'updated']
+    list_display = ['id', 'user', 'get_items_count', 'created', ]
+    list_filter = ['created', ]
     inlines = [OrderItemInline]
+
+    def get_items_count(self, order):
+        return f'{order.items.count()}'
+
+    get_items_count.short_description = 'Колличество товаров, шт.'
 
 
 admin.site.register(Order, OrderAdmin)

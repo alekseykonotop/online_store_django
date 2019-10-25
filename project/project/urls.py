@@ -25,6 +25,7 @@ urlpatterns = [
     path('ckeditor/', include('ckeditor_uploader.urls')),
     path('cart/', include('cart.urls', namespace='cart')),
     path('', include('store.urls', namespace='store')),
+    url(r'^orders/', include('orders.urls', namespace='orders')),
 ]
 
 if settings.DEBUG:

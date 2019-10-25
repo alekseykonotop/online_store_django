@@ -38,9 +38,12 @@
           {% endfor %}
       </ul>
 
-      <form class="card p-2">
-        <button type="submit" class="btn btn-secondary">Заказать</button>
-      </form>
+<!--      <form class="card p-2">-->
+<!--        <button type="submit" class="btn btn-secondary">Заказать</button>-->
+<!--      </form>-->
+      <a class="btn btn-secondary" href="{% url 'orders:order_create' %}">
+        Заказать
+      </a>
     </div>
   </div>
 </div>
