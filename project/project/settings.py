@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'store',
     'cart',
     'orders',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -54,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
 
 ROOT_URLCONF = 'project.urls'
 
@@ -145,3 +147,9 @@ CKEDITOR_CONFIGS = {
 
 # Cart
 CART_SESSION_ID = 'cart'
+
+# Customer user model without username
+AUTH_USER_MODEL = 'users.CustomUser'
+
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
