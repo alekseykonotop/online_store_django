@@ -37,11 +37,12 @@
             {% endwith %}
           {% endfor %}
       </ul>
-
-      <form class="card p-2" action="{% url 'orders:order_create' %}" method="post">
-        {% csrf_token %}
-        <button type="submit" class="btn btn-secondary">Заказать</button>
-      </form>
+      {% if cart.get_total_price %}
+        <form class="card p-2" action="{% url 'orders:order_create' %}" method="post">
+          {% csrf_token %}
+          <button type="submit" class="btn btn-secondary">Заказать</button>
+        </form>
+      {% endif %}
     </div>
   </div>
 </div>
