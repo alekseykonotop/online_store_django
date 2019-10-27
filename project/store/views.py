@@ -33,6 +33,18 @@ def product_detail(request, pk):
 
     context['form'] = FeedbackForm()
 
+    if not request.session.get('reviewed_products', False):
+        request.session["reviewed_products"] = [True]
+        context['is_review_exist'] = False
+
+        return render(request, template_name, context)
+
+    if pk in request.session["reviewed_products"]:
+        context['is_review_exist'] = True
+    else:
+        request.session["reviewed_products"] += [pk]
+        context['is_review_exist'] = False
+
     return render(request, template_name, context)
 
 

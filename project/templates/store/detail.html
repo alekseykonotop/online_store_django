@@ -40,30 +40,31 @@
         <p>{{ fb.text }}</p>
     {% endfor %}
     <hr>
-
-    <div class="row">
-      <div class="col-lg-6 col-md-8 col-sm-12">
-        <h4>Оставьте отзыв:</h4>
-        <form action="" method="POST">
-          {% csrf_token %}
-          <table>
-            {% if form.non_field_errors %}
-            <ul>
-              {% for error in form.non_field_errors %}
-              <li><em>{{ error|escape }}</em></em></li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-            <p>{{ form.name.label_tag }}<br>{{ form.name }}
-            {{ form.name.help_text }}</p>
-            <p>{{ form.text.label_tag }}<br>{{ form.text }}
-            {{ form.text.help_text }}</p>
-            <p>{{ form.rating.label_tag }}<br>{{ form.rating }}
-            {{ form.rating.help_text }}</p>
-          </table>
-          <input type="submit" value="Добавить отзыв">
-        </form>
+    {% if not is_review_exist %}
+      <div class="row">
+        <div class="col-lg-6 col-md-8 col-sm-12">
+          <h4>Оставьте отзыв:</h4>
+            <form action="" method="POST">
+              {% csrf_token %}
+              <table>
+                {% if form.non_field_errors %}
+                  <ul>
+                    {% for error in form.non_field_errors %}
+                    <li><em>{{ error|escape }}</em></em></li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+                <p>{{ form.name.label_tag }}<br>{{ form.name }}
+                {{ form.name.help_text }}</p>
+                <p>{{ form.text.label_tag }}<br>{{ form.text }}
+                {{ form.text.help_text }}</p>
+                <p>{{ form.rating.label_tag }}<br>{{ form.rating }}
+                {{ form.rating.help_text }}</p>
+              </table>
+              <input type="submit" value="Добавить отзыв">
+            </form>
       </div>
+    {% endif %}
     </div>
   </div>
 </main>
