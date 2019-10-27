@@ -9,7 +9,7 @@
         <div class="jumbotron">
           <div class="container">
             <h1 class="display-4">{{ article.title }}</h1>
-              <p>{{ article.content }}</p>
+              <p>{{ article.content|safe }}</p>
           </div>
         </div>
         {% if article.products %}
