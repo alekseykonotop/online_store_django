@@ -24,6 +24,7 @@ SECRET_KEY = 'hxmfg0v9qiamop53h3s0uf$6v21zjg$8bw@h81%301s-&vvat5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+THUMBNAIL_DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -44,6 +45,7 @@ INSTALLED_APPS = [
     'cart',
     'orders',
     'users',
+    'sorl.thumbnail',
 ]
 
 MIDDLEWARE = [

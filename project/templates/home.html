@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load thumbnail %}
 
 {% block title %}Главная страница{% endblock %}
 
@@ -14,17 +15,22 @@
         </div>
         {% if article.products %}
             <div class="container mb-5">
-            <!-- Example row of columns -->
-            <div class="row">
-                {% for product in article.products.all %}
-                    <div class="col-md-4">
-                      <h2>{{ product }}</h2>
-                      <a href="{{ product.get_absolut_url }}">
-                          <img src="{{ product.image.url }}" width="180">
-                      </a>
-                      <p>Стоимость: {{ product.price }} руб.</p>
-                    </div>
-                {% endfor %}
+                <div class="row">
+                    {% for product in article.products.all %}
+                        <div class="col-md-4">
+                          <a style="color:#343a40; text-decoration:none" href="{{ product.get_absolut_url }}">
+                            <h3 style="height:2.7em">{{ product }}</h3>
+                            {% thumbnail product.image 'x250' as im %}
+
+                                  <img src="{{ im.url }}" class="image-detail">
+
+                            {% endthumbnail %}
+                          </a>
+                          <p style="margin-top:20px">Стоимость: {{ product.price }} руб.</p>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
         {% endif %}
       {% endfor %}
 

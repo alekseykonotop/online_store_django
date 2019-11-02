@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load thumbnail %}
 
 {% block title %}
     Your shopping cart
@@ -10,17 +11,19 @@
   <div class="container mt-3">
     <div class="row">
       <div class="col-md-12">
-        <br>
-        <h2>{{ product }}</h2>
+        <h3 style="color:#343a40; height:2.0em">{{ product }}</h3>
 
-        <img src="{{ product.image.url }}" width="120">
+<!--        <img src="{{ product.image.url }}" width="120">-->
+        {% thumbnail product.image 'x250' as im %}
+          <img src="{{ im.url }}" class="image-detail">
+        {% endthumbnail %}
 
-        <p>{{ product.description }}</p>
-        <p class="price">Стоимость: {{ product.price }} руб.</p>
+        <p style="margin-top:20px">{{ product.description }}</p>
+        <p class="price" style="margin-top:20px">Стоимость: {{ product.price }} руб.</p>
         <form action="{% url 'cart:cart_add' product.id %}" method="post">
             {% csrf_token %}
             {{ cart_product_form }}
-            <input type="submit" class="btn btn-secondary" value="Добавить в карзину">
+            <input type="submit" class="btn btn-secondary" value="Добавить в корзину">
         </form>
       </div>
     </div>

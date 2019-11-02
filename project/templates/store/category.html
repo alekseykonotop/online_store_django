@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load thumbnail %}
 
 {% block title %}
     Category
@@ -13,15 +14,17 @@
       <div class="row">
           {% for product in products %}
             <div class="col-md-4">
-              <h2>{{ product }}</h2>
-              <a href="{% url 'store:product_detail' product.id %}">
-                <img src="{{ product.image.url }}" width="180">
+              <a style="color:#343a40; text-decoration:none" href="{% url 'store:product_detail' product.id %}">
+                <h3 style="height:2.7em">{{ product }}</h3>
+                {% thumbnail product.image 'x250' as im %}
+                  <img src="{{ im.url }}" class="image-detail">
+                {% endthumbnail %}
               </a>
-              <p>Стоимость: {{ product.price }} руб.</p>
+              <p style="margin-top:20px">Стоимость: {{ product.price }} руб.</p>
               <form action="{% url 'cart:cart_add' product.id %}" method="post">
                 {% csrf_token %}
                 {{ cart_product_form }}
-                <input type="submit" class="btn btn-secondary" value="Добавить в карзину">
+                <input type="submit" class="btn btn-secondary" value="Добавить в корзину">
               </form>
             </div>
           {% endfor %}
