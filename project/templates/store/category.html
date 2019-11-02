@@ -7,9 +7,9 @@
 {% endblock %}
 
 {% block content %}
-  <main role="main">
+  <main role="main" style="margin-top:6.5em">
   <div class="container">
-    <h1>{{ category.name }}</h1>
+    <h1  style="color:#343a40">{{ category.name }}</h1>
     {% if products %}
       <div class="row">
           {% for product in products %}
@@ -29,11 +29,8 @@
             </div>
           {% endfor %}
       </div>
-      <br>
-      <br>
-      <br>
       {% if is_paginated %}
-        <div class="pagination">
+        <div class="pagination" style="margin-top:20px">
             <span class="page-links">
                 {% if page_obj.has_previous %}
                     <a href="?page={{ page_obj.previous_page_number }}">Назад</a>
@@ -48,7 +45,7 @@
         </div>
       {% endif %}
     {% else %}
-      <p>В этом разделе пока ничего нет!!! :(</p>
+      <h4 style="color:#343a40">В этом разделе пока ничего нет! :(</h4>
     {% endif %}
   </div>
 </main>
