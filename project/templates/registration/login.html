@@ -4,8 +4,8 @@
 {% block title %}Страница входа{% endblock %}
 
 {% block content %}
-<h2 class="mt-5 pt-3">Войти</h2>
-<form method="post">
+<h2 class="mt-5 pt-3 ml-3">Войти</h2>
+<form class="ml-3" method="post">
   {% csrf_token %}
   {{ form.as_p }}
   <button type="submit">Войти</button>
