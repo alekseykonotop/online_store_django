@@ -1,0 +1,3693 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "store",
+    "model": "brand"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "store",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "store",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "store",
+    "model": "feedback"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "store",
+    "model": "article"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "orders",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "orders",
+    "model": "orderitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "users",
+    "model": "customuser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "thumbnail",
+    "model": "kvstore"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0549fij5qqoi21g0cs106uchz84bq221",
+  "fields": {
+    "session_data": "ZTJmZGE4NmRkMDAxNmM5NGFjOGVlOTljMTg2YWMyM2E0ZDYzZGY3Yzp7InJldmlld2VkX3Byb2R1Y3RzIjpbXSwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6IjViZjI3ZDkyN2E5MGY4N2MyNmYzMzdmOTA5NGZlYjc4MWYzNjgzYWQiLCJjYXJ0Ijp7fX0=",
+    "expire_date": "2019-11-17T12:45:22.586Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "19rkzgiriav3mm7mr8juc817376fsuj3",
+  "fields": {
+    "session_data": "OTRkNGZhMTAyMWQ4YzViOTAyODkwZjVkODU4ZGQwYTQzZmIxNWY4Njp7InJldmlld2VkX3Byb2R1Y3RzIjpbdHJ1ZV0sImNhcnQiOnt9fQ==",
+    "expire_date": "2019-11-10T18:29:42.231Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6kzmh7b5o0eigmekf6ie5gyogvp60d3g",
+  "fields": {
+    "session_data": "YzZjNDMwOWExMTBjNjZlMGJjNGUzNTI4ZmM1NjIwMDAzMTA3ZjJhMDp7ImNhcnQiOnt9LCJfYXV0aF91c2VyX2lkIjoiNSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiOGZhMTdkNTc5NzRhNWM4NzJjYzQ0NGNkNGJjYTM1NWY0ZWNiNmUxOSJ9",
+    "expire_date": "2019-11-10T10:13:04.689Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7m7g84xpoh4yf87pqn3yh7l4b8oi9f2g",
+  "fields": {
+    "session_data": "ZWM3YjQ2MDAwNGRhY2UzOGEwNjFkZGFmNmE3ZWZkY2Y0NDQ4MWJjMDp7ImNhcnQiOnt9fQ==",
+    "expire_date": "2019-11-10T09:53:18.590Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "drux5ow7ykfslyttquvq2r8rfh22z533",
+  "fields": {
+    "session_data": "ZWM3YjQ2MDAwNGRhY2UzOGEwNjFkZGFmNmE3ZWZkY2Y0NDQ4MWJjMDp7ImNhcnQiOnt9fQ==",
+    "expire_date": "2019-11-10T09:54:16.969Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "o3j3frscslpqh27pia709b211c75kbvd",
+  "fields": {
+    "session_data": "OTY4Y2M1YzkxMzkzZmZiZmVjYmUzZmY0MDg1ZWExMjE0MjE5OTE2YTp7InJldmlld2VkX3Byb2R1Y3RzIjpbMV0sImNhcnQiOnt9fQ==",
+    "expire_date": "2019-11-17T09:56:08.317Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q8gkkk9jyjuvgawekt1eqm69ozzo4vs8",
+  "fields": {
+    "session_data": "YzJmMzM5NTMzZDBiM2Q3N2FiYjVmZDk2MWVkYThjMjQ3YzYxYjMzMjp7ImNhcnQiOnt9LCJyZXZpZXdlZF9wcm9kdWN0cyI6WzEsMl19",
+    "expire_date": "2019-11-17T09:58:54.955Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "z2ev35t6fb1fgql1c11es13b9namu3gt",
+  "fields": {
+    "session_data": "ZWM3YjQ2MDAwNGRhY2UzOGEwNjFkZGFmNmE3ZWZkY2Y0NDQ4MWJjMDp7ImNhcnQiOnt9fQ==",
+    "expire_date": "2019-11-10T09:51:51.540Z"
+  }
+},
+{
+  "model": "store.category",
+  "pk": 1,
+  "fields": {
+    "name": "\u0413\u0430\u0434\u0436\u0435\u0442\u044b",
+    "slug": "gadzhety",
+    "parent": null
+  }
+},
+{
+  "model": "store.category",
+  "pk": 2,
+  "fields": {
+    "name": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b",
+    "slug": "smartfony",
+    "parent": 1
+  }
+},
+{
+  "model": "store.category",
+  "pk": 3,
+  "fields": {
+    "name": "\u0423\u043c\u043d\u044b\u0435 \u0447\u0430\u0441\u044b",
+    "slug": "umnye-chasy",
+    "parent": 1
+  }
+},
+{
+  "model": "store.category",
+  "pk": 4,
+  "fields": {
+    "name": "\u041f\u043b\u0430\u043d\u0448\u0435\u0442\u044b",
+    "slug": "planshety",
+    "parent": 1
+  }
+},
+{
+  "model": "store.category",
+  "pk": 5,
+  "fields": {
+    "name": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+    "slug": "aksessuary",
+    "parent": null
+  }
+},
+{
+  "model": "store.category",
+  "pk": 6,
+  "fields": {
+    "name": "\u041d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 \u043f\u0440\u043e\u0432\u043e\u0434\u043d\u044b\u0435",
+    "slug": "naushniki-provodnye",
+    "parent": 5
+  }
+},
+{
+  "model": "store.category",
+  "pk": 7,
+  "fields": {
+    "name": "\u041d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u044b\u0435",
+    "slug": "naushniki-besprovodnye",
+    "parent": 5
+  }
+},
+{
+  "model": "store.category",
+  "pk": 11,
+  "fields": {
+    "name": "\u0414\u043b\u044f \u0434\u043e\u043c\u0430",
+    "slug": "dlya-doma",
+    "parent": null
+  }
+},
+{
+  "model": "store.category",
+  "pk": 12,
+  "fields": {
+    "name": "\u0420\u043e\u0431\u043e\u0442-\u043f\u044b\u043b\u0435\u0441\u043e\u0441",
+    "slug": "robot-pylesos",
+    "parent": 11
+  }
+},
+{
+  "model": "store.category",
+  "pk": 13,
+  "fields": {
+    "name": "\u0423\u043c\u043d\u0430\u044f \u043a\u043e\u043b\u043e\u043d\u043a\u0430",
+    "slug": "umnaya-kolonka",
+    "parent": 11
+  }
+},
+{
+  "model": "store.brand",
+  "pk": 1,
+  "fields": {
+    "name": "Apple",
+    "slug": "apple"
+  }
+},
+{
+  "model": "store.brand",
+  "pk": 2,
+  "fields": {
+    "name": "Huawei",
+    "slug": "huawei"
+  }
+},
+{
+  "model": "store.brand",
+  "pk": 3,
+  "fields": {
+    "name": "Samsung",
+    "slug": "samsung"
+  }
+},
+{
+  "model": "store.brand",
+  "pk": 4,
+  "fields": {
+    "name": "Nokia",
+    "slug": "nokia"
+  }
+},
+{
+  "model": "store.brand",
+  "pk": 5,
+  "fields": {
+    "name": "LG",
+    "slug": "lg"
+  }
+},
+{
+  "model": "store.brand",
+  "pk": 6,
+  "fields": {
+    "name": "Meizu",
+    "slug": "meizu"
+  }
+},
+{
+  "model": "store.brand",
+  "pk": 7,
+  "fields": {
+    "name": "Xiaomi",
+    "slug": "xiaomi"
+  }
+},
+{
+  "model": "store.brand",
+  "pk": 8,
+  "fields": {
+    "name": "Philips",
+    "slug": "philips"
+  }
+},
+{
+  "model": "store.brand",
+  "pk": 9,
+  "fields": {
+    "name": "Irobot",
+    "slug": "irobot"
+  }
+},
+{
+  "model": "store.brand",
+  "pk": 10,
+  "fields": {
+    "name": "Beats",
+    "slug": "beats"
+  }
+},
+{
+  "model": "store.brand",
+  "pk": 11,
+  "fields": {
+    "name": "SENNHEISER",
+    "slug": "sennheiser"
+  }
+},
+{
+  "model": "store.brand",
+  "pk": 12,
+  "fields": {
+    "name": "PIONEER",
+    "slug": "pioneer"
+  }
+},
+{
+  "model": "store.product",
+  "pk": 1,
+  "fields": {
+    "category": 2,
+    "brand": 1,
+    "model": "iPhone 8 Plus 64Gb",
+    "slug": "1-iphone-8-plus-64gb",
+    "description": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Apple iPhone 8 Plus MQ8N2RU/A 64Gb \u0437\u043e\u043b\u043e\u0442\u0438\u0441\u0442\u043e\u0433\u043e \u043e\u0442\u0442\u0435\u043d\u043a\u0430 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0441\u043e\u0431\u043e\u0439 \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439 \u0433\u0430\u0434\u0436\u0435\u0442, \u043e\u0441\u043d\u0430\u0449\u0435\u043d\u043d\u044b\u0439 \u043c\u043e\u0449\u043d\u044b\u043c 6-\u044f\u0434\u0435\u0440\u043d\u044b\u043c \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u043e\u043c. \u041e\u043d \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u0442 \u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f \u043d\u043e\u0432\u044b\u0439 \u0444\u043e\u0440\u043c\u0430\u0442 \u0438\u0433\u0440 \u0438 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439 \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044f\u043c \u0434\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u043e\u0439 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0438.",
+    "price": "44790.00",
+    "image": "images/products/1-iphone-8-plus-64gb/1-iphone-8-plus-64gb_Jp4EXbN.jpg",
+    "stock": 5,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 2,
+  "fields": {
+    "category": 2,
+    "brand": 2,
+    "model": "P30 Pro 256Gb",
+    "slug": "2-p30-pro-256gb",
+    "description": "Huawei P30 Pro \u2013 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u043d\u044b\u0439 \u0438 \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u044b\u0439 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d \u0434\u043b\u044f \u043e\u0431\u0449\u0435\u043d\u0438\u044f, \u0432\u0435\u0431-\u0441\u0435\u0440\u0444\u0438\u043d\u0433\u0430 \u0438 \u0440\u0430\u0437\u0432\u043b\u0435\u0447\u0435\u043d\u0438\u0439. \u0412 \u043d\u0435\u0433\u043e \u043c\u043e\u0436\u043d\u043e \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u0441\u0440\u0430\u0437\u0443 \u0434\u0432\u0435 sim-\u043a\u0430\u0440\u0442\u044b, \u0447\u0442\u043e\u0431\u044b \u0440\u0430\u0437\u0434\u0435\u043b\u0438\u0442\u044c \u0440\u0430\u0431\u043e\u0447\u0438\u0435 \u0438 \u043b\u0438\u0447\u043d\u044b\u0435 \u0437\u0432\u043e\u043d\u043a\u0438. \u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0441\u0435\u043d\u0441\u043e\u0440\u043d\u043e\u0433\u043e 6,47-\u0434\u044e\u0439\u043c\u043e\u0432\u043e\u0433\u043e \u044d\u043a\u0440\u0430\u043d\u0430 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 2340\u00d71080 \u043f\u0438\u043a\u0441\u0435\u043b\u0435\u0439, \u0438 \u043d\u0430 \u043d\u0435\u043c \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0430\u044e\u0442\u0441\u044f \u0441\u043e\u0442\u043d\u0438 \u0442\u044b\u0441\u044f\u0447 \u044f\u0440\u043a\u0438\u0445 \u0438 \u0440\u0435\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u043d\u044b\u0445 \u0446\u0432\u0435\u0442\u043e\u0432 \u0438 \u043e\u0442\u0442\u0435\u043d\u043a\u043e\u0432.",
+    "price": "59990.00",
+    "image": "images/products/2-p30-pro-256gb/2-p30-pro-256gb.jpg",
+    "stock": 10,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 3,
+  "fields": {
+    "category": 2,
+    "brand": 5,
+    "model": "G7 Fit 32Gb",
+    "slug": "5-g7-fit-32gb",
+    "description": "LG G7 Fit \u043e\u0441\u043d\u0430\u0449\u0435\u043d \u044d\u043a\u0440\u0430\u043d\u043e\u043c \u0434\u0438\u0430\u0433\u043e\u043d\u0430\u043b\u044c\u044e 6,1 \u0434\u044e\u0439\u043c\u0430, \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435\u043c 3120\u00d71440 \u043f\u0438\u043a\u0441\u0435\u043b\u0435\u0439. \u042f\u0440\u043a\u043e\u0441\u0442\u044c \u0435\u0433\u043e \u043d\u0430\u0441\u0442\u043e\u043b\u044c\u043a\u043e \u0432\u044b\u0441\u043e\u043a\u0430, \u0447\u0442\u043e \u0434\u0430\u0436\u0435 \u043f\u043e\u0434 \u043f\u0440\u044f\u043c\u044b\u043c\u0438 \u043b\u0443\u0447\u0430\u043c\u0438 \u0441\u043e\u043b\u043d\u0446\u0430 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u043d\u0430 \u0434\u0438\u0441\u043f\u043b\u0435\u0435 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u0438 \u0445\u043e\u0440\u043e\u0448\u043e \u0432\u0438\u0434\u043d\u043e.\r\n\r\n\u0412 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u0435 \u0441\u043c\u043e\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u044b LG Boombox-\u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0438 \u0441 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u043e\u0439 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 DTS:X. \u0412 \u0438\u0442\u043e\u0433\u0435 \u043f\u043e\u043b\u0443\u0447\u0430\u044e\u0442\u0441\u044f \u043d\u0430\u0441\u044b\u0449\u0435\u043d\u043d\u044b\u0435 \u0431\u0430\u0441\u044b \u0438 \u0448\u0438\u0440\u043e\u043a\u0430\u044f \u0441\u0446\u0435\u043d\u0430, \u0430 \u0437\u0432\u0443\u0447\u0430\u043d\u0438\u0435 \u0432 \u0444\u0438\u043b\u044c\u043c\u0430\u0445, \u0438\u0433\u0440\u0430\u0445 \u0438 \u043f\u0435\u0441\u043d\u044f\u0445 \u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u0441\u044f \u043e\u0447\u0435\u043d\u044c \u0440\u0435\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u043d\u044b\u043c \u0438 \u044f\u0440\u043a\u0438\u043c.",
+    "price": "13990.00",
+    "image": "images/products/5-g7-fit-32gb/5-g7-fit-32gb.jpg",
+    "stock": 4,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 4,
+  "fields": {
+    "category": 2,
+    "brand": 6,
+    "model": "16th 64Gb",
+    "slug": "6-16th-64gb",
+    "description": "MEIZU 16th \u2014 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d \u0441 \u0448\u0435\u0441\u0442\u0438\u0434\u044e\u0439\u043c\u043e\u0432\u044b\u043c AMOLED-\u044d\u043a\u0440\u0430\u043d\u043e\u043c \u0438 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435\u043c 2\u041a, \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u044b\u0439 \u0434\u0435\u0432\u0430\u0439\u0441 \u0434\u043b\u044f \u043b\u044e\u0431\u043e\u0439 \u0437\u0430\u0434\u0430\u0447\u0438 \u0438 \u043b\u044e\u0431\u043e\u0433\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f. \u041b\u0435\u0433\u043a\u0438\u0439, \u043a\u043e\u043c\u043f\u0430\u043a\u0442\u043d\u044b\u0439, \u0443\u0434\u043e\u0431\u043d\u043e \u0434\u0435\u0440\u0436\u0430\u0442\u044c \u0432 \u0440\u0443\u043a\u0435.\r\n\r\n\u0421\u043e\u0447\u0435\u0442\u0430\u043d\u0438\u0435 \u0434\u0432\u0443\u0445 \u043e\u0431\u044a\u0435\u043a\u0442\u0438\u0432\u043e\u0432 12 \u0438 20 \u041c\u043f \u0432\u044b\u0432\u043e\u0434\u0438\u0442 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u0443\u044e \u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044e \u043d\u0430 \u043d\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c, \u0434\u0435\u043b\u0430\u044f \u0435\u0435 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u043e\u043c. \u0414\u0430\u0436\u0435 \u043d\u043e\u0447\u044c\u044e \u043f\u043e\u043b\u0443\u0447\u0430\u044e\u0442\u0441\u044f \u043f\u0440\u0435\u0432\u043e\u0441\u0445\u043e\u0434\u043d\u044b\u0435 \u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438 \u0438 \u0432\u0438\u0434\u0435\u043e \u0432 4\u041a.\r\n\r\n\u0424\u0440\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u043c\u0435\u0440\u0430 20 \u041c\u043f \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0432 \u043a\u043e\u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0438 \u0441 \u043c\u043e\u0434\u0443\u043b\u0435\u043c AI. \u0420\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442 \u044d\u0442\u043e\u0433\u043e \u0441\u0438\u043c\u0431\u0438\u043e\u0437\u0430 \u2014 \u0441\u0435\u043b\u0444\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u0443\u043b\u0443\u0447\u0448\u0430\u044e\u0442\u0441\u044f \u0434\u043e \u0438\u0434\u0435\u0430\u043b\u0430 \u0438 \u043d\u0435 \u043d\u0443\u0436\u0434\u0430\u044e\u0442\u0441\u044f \u0432 \u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0438.",
+    "price": "21990.00",
+    "image": "images/products/6-16th-64gb/6-16th-64gb.jpg",
+    "stock": 7,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 5,
+  "fields": {
+    "category": 2,
+    "brand": 4,
+    "model": "5.1 Plus 32Gb",
+    "slug": "4-51-plus-32gb",
+    "description": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d Nokia 5.1 Plus White (11PDAW01A01) \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u043d\u0430 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u0435 Android \u0432\u0435\u0440\u0441\u0438\u0438 8.1, \u043e\u0441\u043d\u0430\u0449\u0435\u043d \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u044c\u044e \u043d\u0430 32 \u0413\u0431. \u041e\u0431\u044a\u0435\u043c \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u043f\u043e\u0440\u044f\u0434\u043a\u0430 3 \u0413\u0431, \u043f\u0440\u0435\u0434\u0443\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u043e \u0435\u0435 \u0434\u0430\u043b\u044c\u043d\u0435\u0439\u0448\u0435\u0435 \u0440\u0430\u0441\u0448\u0438\u0440\u0435\u043d\u0438\u0435. \u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u043a\u0430\u0440\u0442\u044b microSDHC, microSD \u0441 \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0431\u044a\u0435\u043c\u043e\u043c \u0434\u043e 400 \u0413\u0431.\r\n\u0413\u0430\u0434\u0436\u0435\u0442 \u043e\u0441\u043d\u0430\u0449\u0435\u043d \u0434\u0432\u0443\u043c\u044f \u0441\u043b\u043e\u0442\u0430\u043c\u0438 \u0434\u043b\u044f SIM \u043a\u0430\u0440\u0442\u044b \u0442\u0438\u043f\u0430 nano-SIM. \u0415\u043c\u043a\u043e\u0441\u0442\u044c \u0430\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u0430 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 3060 \u043c\u0410\u22c5\u0447.",
+    "price": "7990.00",
+    "image": "images/products/4-51-plus-32gb/4-51-plus-32gb.1_Plus_32Gb",
+    "stock": 12,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 6,
+  "fields": {
+    "category": 2,
+    "brand": 3,
+    "model": "Galaxy Note 10+ 256Gb",
+    "slug": "3-galaxy-note-10-256gb",
+    "description": "\u0411\u0435\u0437\u0440\u0430\u043c\u043e\u0447\u043d\u044b\u0439 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d SAMSUNG Galaxy Note 10+ \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f \u0432\u044b\u0441\u043e\u043a\u043e\u0439 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c\u044e, \u0431\u043e\u043b\u044c\u0448\u0438\u043c \u043e\u0431\u044a\u0435\u043c\u043e\u043c \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438 \u0438 \u0448\u0438\u0440\u043e\u043a\u0438\u043c \u0432\u044b\u0431\u043e\u0440\u043e\u043c \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439.\r\n\r\n\u041e\u0442\u043b\u0438\u0447\u043d\u0430\u044f \u043a\u043e\u043c\u043f\u043e\u043d\u043e\u0432\u043a\u0430\r\n\u0412\u043e\u0441\u044c\u043c\u0438\u044f\u0434\u0435\u0440\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 Exynos 9825 \u0438 12 \u0413\u0431 \u041e\u0417\u0423 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u043e \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442 \u0432 \u0441\u0432\u044f\u0437\u043a\u0435, \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0432\u0430\u044f \u043c\u043e\u0449\u044c \u0438 \u0441\u043a\u043e\u0440\u043e\u0441\u0442\u044c \u0440\u0430\u0431\u043e\u0442\u044b \u043d\u0430 \u0432\u044b\u0441\u043e\u043a\u043e\u043c \u0443\u0440\u043e\u0432\u043d\u0435. \u0414\u043b\u044f \u0441\u044a\u0435\u043c\u043a\u0438 \u0444\u043e\u0442\u043e \u0438 \u0437\u0430\u043f\u0438\u0441\u0438 \u0432\u0438\u0434\u0435\u043e \u043f\u0440\u0435\u0434\u0443\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u043e \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043a\u0430\u043c\u0435\u0440. \u0421 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0444\u0440\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u043e\u0439 \u043d\u0430 10 \u041c\u043f \u043f\u043e\u043b\u0443\u0447\u0430\u044e\u0442\u0441\u044f \u0445\u043e\u0440\u043e\u0448\u0438\u0435 \u0441\u0435\u043b\u0444\u0438-\u0441\u043d\u0438\u043c\u043a\u0438, \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0435 \u043e\u0441\u043d\u043e\u0432\u043d\u044b\u0445, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044e \u0432\u0441\u043f\u044b\u0448\u043a\u0438, \u0430\u0432\u0442\u043e\u0444\u043e\u043a\u0443\u0441\u0430, \u0434\u0432\u043e\u0439\u043d\u043e\u0439 \u043e\u043f\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0441\u0442\u0430\u0431\u0438\u043b\u0438\u0437\u0430\u0446\u0438\u0438, \u0446\u0438\u0444\u0440\u043e\u0432\u043e\u0433\u043e 10\u0445 \u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u044f \u2014 \u043d\u0430 \u043f\u0430\u043c\u044f\u0442\u044c \u043e\u0441\u0442\u0430\u044e\u0442\u0441\u044f \u043f\u0440\u0435\u0432\u043e\u0441\u0445\u043e\u0434\u043d\u044b\u0435 \u0444\u043e\u0442\u043e.\r\n\r\n\u041f\u043e\u043c\u043e\u0449\u044c \u0432 \u0440\u0430\u0431\u043e\u0442\u0435 \u0438 \u043d\u0430 \u0434\u043e\u0441\u0443\u0433\u0435\r\n\u0412 \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u0435\u0441\u0442\u044c \u0431\u0430\u0440\u043e\u043c\u0435\u0442\u0440, \u0433\u0438\u0440\u043e\u0441\u043a\u043e\u043f, \u0434\u0430\u0442\u0447\u0438\u043a\u0438 \u043e\u0441\u0432\u0435\u0449\u0435\u043d\u043d\u043e\u0441\u0442\u0438, \u043f\u0440\u0438\u0431\u043b\u0438\u0436\u0435\u043d\u0438\u044f, \u0425\u043e\u043b\u043b\u0430, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0434\u0430\u043a\u0442\u0438\u043b\u043e\u0441\u043a\u043e\u043f\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u0435\u043d\u0441\u043e\u0440. \u042d\u0442\u043e \u0445\u043e\u0440\u043e\u0448\u0438\u0435 \u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a\u0438 \u0432 \u0438\u0433\u0440\u0430\u0445, \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438, \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0435 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u0430 \u043f\u043e \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0443, \u0432 \u043f\u043b\u0430\u043d\u0435 \u0437\u0430\u0449\u0438\u0442\u044b \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e\u0442 \u043f\u043e\u0441\u0442\u043e\u0440\u043e\u043d\u043d\u0438\u0445.",
+    "price": "89990.00",
+    "image": "images/products/3-galaxy-note-10-256gb/3-galaxy-note-10-256gb.jpg",
+    "stock": 6,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 7,
+  "fields": {
+    "category": 2,
+    "brand": 7,
+    "model": "Mi 9T Pro 128Gb",
+    "slug": "7-mi-9t-pro-128gb",
+    "description": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d XIAOMI Mi 9T Pro \u043e\u0441\u043d\u0430\u0449\u0430\u0435\u0442\u0441\u044f 128 \u0413\u0431 \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u043d\u0430 \u043d\u0435\u043c \u043c\u043e\u0436\u043d\u043e \u0445\u0440\u0430\u043d\u0438\u0442\u044c \u043c\u043d\u043e\u0433\u043e \u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0439, \u0430\u0443\u0434\u0438\u043e\u0430\u043b\u044c\u0431\u043e\u043c\u043e\u0432 \u0438 \u043f\u0440\u043e\u0447\u0435\u0433\u043e \u043a\u043e\u043d\u0442\u0435\u043d\u0442\u0430.\r\n\r\n\u041c\u0435\u0440\u044b \u0437\u0430\u0449\u0438\u0442\u044b\r\n\u0412 \u043c\u043e\u0434\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u0438 \u043f\u0440\u0435\u0434\u0443\u0441\u043c\u043e\u0442\u0440\u0435\u043d\u044b \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0440\u0430\u0437\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u043a\u0438 \u043f\u043e \u043b\u0438\u0446\u0443, \u0435\u0441\u0442\u044c \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430 \u0441\u043a\u0430\u043d\u0435\u0440\u0430 \u043e\u0442\u043f\u0435\u0447\u0430\u0442\u043a\u0430 \u043f\u0430\u043b\u044c\u0446\u0430. \u0421\u043e \u0441\u0442\u0435\u043a\u043b\u043e\u043c Corning Gorilla Glass 5 \u043c\u043e\u0436\u043d\u043e \u043d\u0435 \u043f\u0435\u0440\u0435\u0436\u0438\u0432\u0430\u0442\u044c \u0437\u0430 \u0446\u0435\u043b\u043e\u0441\u0442\u043d\u043e\u0441\u0442\u044c AMOLED-\u0434\u0438\u0441\u043f\u043b\u0435\u044f. \u041a\u043e\u0440\u043f\u0443\u0441 \u0438\u0437 \u043c\u0435\u0442\u0430\u043b\u043b\u0430 \u0432\u044b\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u0443\u044e \u044d\u043a\u0441\u043f\u043b\u0443\u0430\u0442\u0430\u0446\u0438\u044e, \u043d\u043e\u0448\u0435\u043d\u0438\u0435 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u0430 \u0432 \u0441\u0443\u043c\u043a\u0435, \u0440\u044e\u043a\u0437\u0430\u043a\u0435 \u0438\u043b\u0438 \u043e\u0431\u044b\u0447\u043d\u043e\u043c \u043a\u0430\u0440\u043c\u0430\u043d\u0435.\r\n\r\n\u041e\u0442\u043c\u0435\u043d\u043d\u0430\u044f \u0441\u044a\u0435\u043c\u043a\u0430 \u0438 \u0430\u0432\u0442\u043e\u043d\u043e\u043c\u043d\u043e\u0441\u0442\u044c\r\n\u041c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e \u0440\u0435\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u043d\u044b\u0435 \u0438 \u0434\u0435\u0442\u0430\u043b\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0444\u043e\u0442\u043e \u043c\u043e\u0436\u043d\u043e \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0439 48 \u041c\u043f \u043a\u0430\u043c\u0435\u0440\u0435. \u0421\u0434\u0435\u043b\u0430\u0442\u044c \u0441\u0435\u043b\u0444\u0438 \u0442\u043e\u0436\u0435 \u0431\u0435\u0437 \u043f\u0440\u043e\u0431\u043b\u0435\u043c, \u043d\u043e \u0443\u0436\u0435 \u0441 \u0444\u0440\u043e\u043d\u0442\u0430\u043b\u044c\u043d\u043e\u0439 20 \u041c\u043f \u043a\u0430\u043c\u0435\u0440\u044b, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u0432\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u0430 \u0441 \u0432\u044b\u0435\u0437\u0436\u0430\u044e\u0449\u0438\u043c \u043c\u0435\u0445\u0430\u043d\u0438\u0437\u043c\u043e\u043c. \u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d XIAOMI Mi 9T Pro \u0440\u0435\u0430\u043b\u044c\u043d\u043e \u043d\u0430\u0434\u043e\u043b\u0433\u043e \u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0442\u044c \u0431\u0435\u0437 \u043f\u043e\u0434\u0437\u0430\u0440\u044f\u0434\u043a\u0438, \u0442.\u043a. \u0432 \u043d\u0435\u043c \u0443\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0430 \u0431\u0430\u0442\u0430\u0440\u0435\u044f \u043d\u0430 4000 \u043c\u0410\u0447. \u041e\u043d\u0430 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0432\u0430\u0435\u0442 28 \u0447\u0430\u0441\u043e\u0432 \u0432 \u0445\u043e\u0434\u0435 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u0430 \u0438 1000 \u0447\u0430\u0441\u043e\u0432 \u0432 \u0440\u0435\u0436\u0438\u043c\u0435 \u043e\u0436\u0438\u0434\u0430\u043d\u0438\u044f.",
+    "price": "33990.00",
+    "image": "images/products/7-mi-9t-pro-128gb/7-mi-9t-pro-128gb.jpg",
+    "stock": 17,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 8,
+  "fields": {
+    "category": 2,
+    "brand": 1,
+    "model": "iPhone 11 Pro Max 512Gb",
+    "slug": "1-iphone-11-pro-max-512gb",
+    "description": "iPhone 11 Pro Max \u0435\u043c\u043a\u043e\u0441\u0442\u044c\u044e 512Gb \u0432 \u043a\u043e\u0440\u043f\u0443\u0441\u0435 \u0441\u0435\u0440\u0435\u0431\u0440\u0438\u0441\u0442\u043e\u0433\u043e \u0446\u0432\u0435\u0442\u0430 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0437\u043d\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c \u043e\u0431\u044a\u0435\u043c\u043e\u043c \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438. \u041f\u0435\u0440\u0435\u0434\u043e\u0432\u044b\u0435 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 \u0431\u0443\u0434\u0443\u0449\u0435\u0433\u043e \u043e\u0442\u043b\u0438\u0447\u043d\u043e \u0441\u043e\u0447\u0435\u0442\u0430\u044e\u0442\u0441\u044f \u0437\u0434\u0435\u0441\u044c \u0441 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u044f\u043c\u0438 APPLE.\r\n\r\n\u0415\u0441\u043b\u0438 \u0433\u043e\u0432\u043e\u0440\u0438\u0442\u044c \u043e \u0432\u043d\u0435\u0448\u043d\u0435\u043c \u0432\u0438\u0434\u0435 \u043d\u043e\u0432\u043e\u0433\u043e \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u0430, \u0442\u043e \u043a\u0430\u0440\u0434\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0445 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0439 \u043d\u0435 \u043f\u0440\u043e\u0438\u0437\u043e\u0448\u043b\u043e. \u0413\u043b\u0430\u0432\u043d\u044b\u0439 \u0431\u043e\u043d\u0443\u0441 \u0434\u043b\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439 iPhone 11 Pro Max \u2013 \u0438\u043d\u043d\u043e\u0432\u0430\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u0441\u0438\u0441\u0442\u0435\u043c\u0430 \u0442\u0440\u0435\u0445 \u043a\u0430\u043c\u0435\u0440. \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044e \u0444\u043e\u0442\u043e\u0442\u0435\u043b\u0435\u043a\u0430\u043c\u0435\u0440\u044b, \u0448\u0438\u0440\u043e\u043a\u043e\u0443\u0433\u043e\u043b\u044c\u043d\u043e\u0439 \u0438 \u0441\u0432\u0435\u0440\u0445\u0448\u0438\u0440\u043e\u043a\u043e\u0443\u0433\u043e\u043b\u044c\u043d\u043e\u0439 \u043a\u0430\u043c\u0435\u0440 \u0443\u0434\u0430\u0435\u0442\u0441\u044f \u043f\u043e\u0434\u043d\u044f\u0442\u044c \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e \u0444\u043e\u0442\u043e\u0441\u044a\u0435\u043c\u043a\u0438 \u043d\u0430 \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u0438\u0430\u043b\u044c\u043d\u043e \u043d\u043e\u0432\u044b\u0439 \u0443\u0440\u043e\u0432\u0435\u043d\u044c. \u0423\u0432\u0435\u043b\u0438\u0447\u0438\u043b\u0438\u0441\u044c \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0438 \u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u043f\u043e\u0440\u0442\u0440\u0435\u0442\u043d\u044b\u0445 \u0444\u043e\u0442\u043e\u0441\u043d\u0438\u043c\u043a\u043e\u0432. iPhone 11 Pro Max \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0444\u043e\u0442\u043e \u043f\u0440\u0438 \u043d\u043e\u0447\u043d\u043e\u0439 \u0441\u044a\u0435\u043c\u043a\u0435.",
+    "price": "131990.00",
+    "image": "images/products/1-iphone-11-pro-max-512gb/1-iphone-11-pro-max-512gb.jpg",
+    "stock": 2,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 9,
+  "fields": {
+    "category": 4,
+    "brand": 1,
+    "model": "iPad Pro 12.9\" 1Tb Wi-Fi + Cellular",
+    "slug": "1-ipad-pro-129-1tb-wi-fi-cellular",
+    "description": "\u041d\u043e\u0432\u044b\u0439 iPad Pro 12,9 \u0434\u044e\u0439\u043c\u0430 \u2013 \u044d\u0442\u043e \u0441\u043e\u0447\u0435\u0442\u0430\u043d\u0438\u0435 \u0441\u0430\u043c\u044b\u0445 \u043f\u0440\u043e\u0434\u0432\u0438\u043d\u0443\u0442\u044b\u0445 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439 Apple. \u0414\u0438\u0441\u043f\u043b\u0435\u0439 Liquid Retina \u043e\u0442 \u043a\u0440\u0430\u044f \u0434\u043e \u043a\u0440\u0430\u044f. Face ID, \u0447\u0442\u043e\u0431\u044b \u043e\u0434\u043d\u0438\u043c \u0432\u0437\u0433\u043b\u044f\u0434\u043e\u043c \u0440\u0430\u0437\u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0441\u0432\u043e\u0439 iPad Pro \u0438\u043b\u0438 \u0432\u043e\u0439\u0442\u0438 \u0432 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0441 \u043f\u0430\u0440\u043e\u043b\u0435\u043c.\r\n\r\n\u041f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 A12X Bionic \u2013 \u0431\u044b\u0441\u0442\u0440\u0435\u0435, \u0447\u0435\u043c \u0443 \u043c\u043d\u043e\u0433\u0438\u0445 \u043d\u043e\u0443\u0442\u0431\u0443\u043a\u043e\u0432 \u2013 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u0443\u0440\u043e\u0432\u043d\u044f. \u0410\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440 \u043d\u0430 \u0446\u0435\u043b\u044b\u0439 \u0434\u0435\u043d\u044c \u0440\u0430\u0431\u043e\u0442\u044b. \u041f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0430 \u0431\u044b\u0441\u0442\u0440\u043e\u0439 \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u043e\u0439 \u0441\u0432\u044f\u0437\u0438. \u0411\u043e\u043b\u0435\u0435 \u043c\u0438\u043b\u043b\u0438\u043e\u043d\u0430 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439 \u0438\u0437 App Store, \u0432 \u0442\u043e\u043c \u0447\u0438\u0441\u043b\u0435 \u0441 \u0434\u043e\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u043e\u0439 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u044c\u044e. \u0414\u043e\u0431\u0430\u0432\u044c\u0442\u0435 \u043a \u044d\u0442\u043e\u043c\u0443 \u043d\u043e\u0432\u044b\u0439 Apple Pencil \u0438 Smart Keyboard Folio \u0441 \u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c\u0438 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044f\u043c\u0438 \u0434\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u0438 \u0442\u0432\u043e\u0440\u0447\u0435\u0441\u0442\u0432\u0430. iPad Pro \u043c\u0435\u043d\u044f\u0435\u0442 \u0432\u0441\u0435 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043e\u0431 iPad \u0438 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u043c\u0435\u043d\u044f\u0435\u0442 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u043e \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0435.",
+    "price": "139990.00",
+    "image": "images/products/1-ipad-pro-129-1tb-wi-fi-cellular/1-ipad-pro-129-1tb_OUugTlU.922_1Tb_Wi-Fi__Cellular",
+    "stock": 6,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 10,
+  "fields": {
+    "category": 4,
+    "brand": 1,
+    "model": "iPad mini 2019 64Gb Wi-Fi",
+    "slug": "1-ipad-mini-2019-64gb-wi-fi",
+    "description": "\u041e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u043d\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u0438\u0437 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u043e\u0439 \u043b\u0438\u043d\u0435\u0439\u043a\u0438 Apple iPad mini, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u0432\u043a\u043b\u044e\u0447\u0430\u0435\u0442 \u0432 \u0441\u0435\u0431\u044f \u043d\u0430\u0438\u0431\u043e\u043b\u0435\u0435 \u043a\u043e\u043c\u043f\u0430\u043a\u0442\u043d\u044b\u0435, \u043b\u0435\u0433\u043a\u0438\u0435 \u0438 \u0441\u0440\u0430\u0432\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u043d\u0435\u0434\u043e\u0440\u043e\u0433\u0438\u0435 \u043f\u043b\u0430\u043d\u0448\u0435\u0442\u044b \u043a\u0430\u043b\u0438\u0444\u043e\u0440\u043d\u0438\u0439\u0441\u043a\u043e\u0439 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438. \u041f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0441\u043e\u0431\u043e\u0439 \u043c\u043b\u0430\u0434\u0448\u0435\u0435 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u0438\u0437 \u043e\u0431\u0448\u0438\u0440\u043d\u043e\u0433\u043e \u0441\u0435\u043c\u0435\u0439\u0441\u0442\u0432\u0430 \u043f\u043b\u0430\u043d\u0448\u0435\u0442\u043e\u0432 Apple 2019 \u0433\u043e\u0434\u0430.",
+    "price": "32790.00",
+    "image": "images/products/1-ipad-mini-2019-64gb-wi-fi/1-ipad-mini-2019-64gb-wi-fi.jpg",
+    "stock": 8,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 11,
+  "fields": {
+    "category": 4,
+    "brand": 2,
+    "model": "MediaPad M5 10.0 Lite",
+    "slug": "2-mediapad-m5-100-lite",
+    "description": "\u041f\u043b\u0430\u043d\u0448\u0435\u0442 Huawei MediaPad M5 10.0 Lite Kirin 959 8C/3Gb/32Gb 10.1\" IPS \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0441\u043e\u0431\u043e\u0439 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u043e\u0435 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u0441 \u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0442\u043e\u043d\u043a\u0438\u043c \u043a\u043e\u0440\u043f\u0443\u0441\u043e\u043c, \u043a\u043e\u043c\u043f\u0430\u043a\u0442\u043d\u044b\u043c\u0438 \u0433\u0430\u0431\u0430\u0440\u0438\u0442\u0430\u043c\u0438 \u0438 \u043c\u0430\u043b\u044b\u043c \u0432\u0435\u0441\u043e\u043c, \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0447\u0435\u043c\u0443 \u043e\u043d\u043e \u0441\u043c\u043e\u0436\u0435\u0442 \u0441\u043e\u043f\u0440\u043e\u0432\u043e\u0436\u0434\u0430\u0442\u044c \u0432\u0430\u0441 \u0432 \u043b\u044e\u0431\u043e\u0439 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438. \u041c\u043d\u043e\u0433\u043e\u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0435 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u043d\u0430 \u0431\u0430\u0437\u0435 \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b Android, \u043f\u0440\u0438\u0437\u043d\u0430\u043d\u043d\u043e\u0439 \u043e\u0434\u043d\u043e\u0439 \u0438\u0437 \u0441\u0430\u043c\u044b\u0445 \u0443\u0434\u043e\u0431\u043d\u044b\u0445 \u0438 \u043b\u0435\u0433\u043a\u0438\u0445, \u0441 \u043e\u0431\u0448\u0438\u0440\u043d\u044b\u043c \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0442\u0435\u0445\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0435\u0439.\r\n\r\n\u041a\u043e\u0440\u043f\u0443\u0441 \u0438\u0437 \u043c\u0435\u0442\u0430\u043b\u043b\u0430 \u0432\u044b\u0441\u043e\u043a\u043e\u0433\u043e \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430 \u0438\u043c\u0435\u0435\u0442 \u0441\u0442\u0438\u043b\u044c\u043d\u0443\u044e \u0440\u0430\u0441\u0446\u0432\u0435\u0442\u043a\u0443. \u041f\u043b\u0430\u043d\u0448\u0435\u0442 Huawei MediaPad M5 \u043e\u0441\u043d\u0430\u0449\u0435\u043d 10.1-\u0434\u044e\u0439\u043c\u043e\u0432\u044b\u043c IPS-\u044d\u043a\u0440\u0430\u043d\u043e\u043c \u0441 \u0445\u043e\u0440\u043e\u0448\u0438\u043c \u0434\u043b\u044f \u0437\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u043e\u0441\u043f\u0440\u0438\u044f\u0442\u0438\u044f \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0435\u043c \u2014 1920\u00d71200 \u043f\u0438\u043a\u0441\u0435\u043b\u0435\u0439. \u0412 \u0435\u0433\u043e \u043e\u0441\u043d\u043e\u0432\u0443 \u043b\u0435\u0433\u043b\u0430 IPS-\u043c\u0430\u0442\u0440\u0438\u0446\u0430, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u0432\u0430\u043c \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u044b \u043f\u0440\u0435\u0432\u043e\u0441\u0445\u043e\u0434\u043d\u044b\u0435 \u0443\u0433\u043b\u044b \u043e\u0431\u0437\u043e\u0440\u0430 \u0438 \u043d\u0430\u0441\u044b\u0449\u0435\u043d\u043d\u044b\u0439 \u0447\u0435\u0440\u043d\u044b\u0439 \u0446\u0432\u0435\u0442. \u0417\u0430\u0449\u0438\u0442\u043d\u043e\u0435 \u043f\u043e\u043a\u0440\u044b\u0442\u0438\u0435 \u044d\u043a\u0440\u0430\u043d\u0430 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0432\u0430\u0435\u0442 \u0441\u043e\u0445\u0440\u0430\u043d\u043d\u043e\u0441\u0442\u044c \u043f\u043e\u0432\u0435\u0440\u0445\u043d\u043e\u0441\u0442\u0438 \u043e\u0442 \u043c\u0435\u0445\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u0438\u0445 \u043f\u043e\u0432\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0439. \u0427\u0430\u0441\u0442\u043e\u0442\u0430 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0430 \u0441\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 2.36 \u0413\u0413\u0446. \u041e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f \u043f\u0430\u043c\u044f\u0442\u044c \u2014 3 \u0413\u0411, \u0432\u0441\u0442\u0440\u043e\u0435\u043d\u043d\u0430\u044f \u2014 32 \u0413\u0411.",
+    "price": "19990.00",
+    "image": "images/products/2-mediapad-m5-100-lite/2-mediapad-m5-100-lite.0_Lite",
+    "stock": 3,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 12,
+  "fields": {
+    "category": 4,
+    "brand": 3,
+    "model": "Galaxy Tab S6 SM-T865N, 6\u0413\u0431, 128GB",
+    "slug": "3-galaxy-tab-s6-sm-t865n-6gb-128gb",
+    "description": "\u041f\u043b\u0430\u043d\u0448\u0435\u0442 Samsung Galaxy Tab S6 10.5 \u2013 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u044b\u0439 \u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a \u0434\u043b\u044f \u043b\u044e\u0431\u044b\u0445 \u0437\u0430\u0434\u0430\u0447. \u0412\u044b\u0445\u043e\u0434\u0438\u0442\u0435 \u0432 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442, \u0438\u0433\u0440\u0430\u0439\u0442\u0435 \u0432 \u0438\u0433\u0440\u044b, \u0447\u0438\u0442\u0430\u0439\u0442\u0435 \u043a\u043d\u0438\u0433\u0438, \u0441\u043c\u043e\u0442\u0440\u0438\u0442\u0435 \u043a\u0438\u043d\u043e, \u0440\u0430\u0437\u0432\u043b\u0435\u043a\u0430\u0439\u0442\u0435 \u0440\u0435\u0431\u0451\u043d\u043a\u0430 \u043c\u0443\u043b\u044c\u0442\u0444\u0438\u043b\u044c\u043c\u043e\u043c \u0438\u043b\u0438 \u0440\u0430\u0431\u043e\u0442\u0430\u0439\u0442\u0435 \u0432 \u043e\u0444\u0438\u0441\u043d\u044b\u0445 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f\u0445 \u0441 \u043d\u0435\u0438\u0437\u043c\u0435\u043d\u043d\u043e \u0432\u044b\u0441\u043e\u043a\u043e\u0439 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c\u044e.\r\n\r\n\u041b\u044e\u0431\u044b\u0435 \u0434\u0435\u043b\u0430 \u0441\u043f\u043e\u0440\u044f\u0442\u0441\u044f \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u043f\u0440\u043e\u0434\u0432\u0438\u043d\u0443\u0442\u043e\u043c\u0443 \u0432\u043e\u0441\u044c\u043c\u0438\u044f\u0434\u0435\u0440\u043d\u043e\u043c\u0443 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440\u0443 Qualcomm Snapdragon 855 \u043f\u0440\u0438 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0435 6 \u0413\u0431 \u043e\u043f\u0435\u0440\u0430\u0442\u0438\u0432\u043d\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438. \u0420\u0435\u0441\u0443\u0440\u0441\u043e\u0451\u043c\u043a\u0438\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u044b \u0438\u043b\u0438 \u0440\u0435\u0436\u0438\u043c \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u043e\u043a\u043e\u043d \u0431\u0443\u0434\u0443\u0442 \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0441\u0442\u0430\u0431\u0438\u043b\u044c\u043d\u043e \u0438 \u043f\u043b\u0430\u0432\u043d\u043e. \u0414\u043b\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f \u043b\u0438\u0447\u043d\u044b\u0445 \u0444\u0430\u0439\u043b\u043e\u0432 \u0432\u044b\u0434\u0435\u043b\u0435\u043d\u043e 128 \u0413\u0431 \u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0430 \u043d\u0430 \u043d\u0430\u043a\u043e\u043f\u0438\u0442\u0435\u043b\u0435. \u0415\u0441\u043b\u0438 \u043d\u0443\u0436\u043d\u043e \u0431\u043e\u043b\u044c\u0448\u0435, \u0432\u043e\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435\u0441\u044c \u043a\u0430\u0440\u0442\u043e\u0439 \u043f\u0430\u043c\u044f\u0442\u0438 microSD \u0451\u043c\u043a\u043e\u0441\u0442\u044c\u044e \u0434\u043e 1 \u0422\u0431.",
+    "price": "59990.00",
+    "image": "images/products/3-galaxy-tab-s6-sm-t865n-6gb-128gb/3-galaxy-tab-s6-sm-t865n-6gb-128gb.jpg",
+    "stock": 8,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 13,
+  "fields": {
+    "category": 3,
+    "brand": 1,
+    "model": "Watch Series 5 44\u043c\u043c",
+    "slug": "1-watch-series-5-44mm-serebristyj-belyj",
+    "description": "Apple Watch \u043f\u043e \u043f\u0440\u0430\u0432\u0443 \u0441\u0447\u0438\u0442\u0430\u044e\u0442\u0441\u044f \u043e\u0434\u043d\u0438\u043c\u0438 \u0438\u0437 \u0441\u0430\u043c\u044b\u0445 \u043f\u0440\u043e\u0434\u0432\u0438\u043d\u0443\u0442\u044b\u0445 \u0443\u043c\u043d\u044b\u0445 \u0447\u0430\u0441\u043e\u0432, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 Series 5 \u0441\u043b\u043e\u0436\u043d\u043e \u043d\u0430\u0437\u0432\u0430\u0442\u044c \u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435\u043c, \u043d\u043e \u043c\u0430\u0441\u0441\u0430 \u043d\u043e\u0432\u044b\u0445 \u0444\u0443\u043d\u043a\u0446\u0438\u0439 \u0438 \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u0439 \u0432 \u0434\u0430\u043d\u043d\u043e\u043c \u043f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u0438 \u043f\u0440\u0438\u0431\u043b\u0438\u0436\u0430\u044e\u0442 Apple Watch \u043a \u0438\u0434\u0435\u0430\u043b\u0443. \u0421\u0440\u0435\u0434\u0438 \u0441\u0430\u043c\u044b\u0445 \u0438\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u044b\u0445 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0435\u0439 \u0441\u0442\u043e\u0438\u0442 \u043e\u0442\u043c\u0435\u0442\u0438\u0442\u044c \u0444\u0443\u043d\u043a\u0446\u0438\u044e \u043f\u043e\u0441\u0442\u043e\u044f\u043d\u043d\u043e\u0433\u043e \u043e\u0442\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u0434\u0430\u0436\u0435 \u043d\u0430 \u0432\u044b\u043a\u043b\u044e\u0447\u0435\u043d\u043d\u043e\u043c \u044d\u043a\u0440\u0430\u043d\u0435, \u0430 \u043a \u043e\u043f\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u043c\u0443 \u0434\u0430\u0442\u0447\u0438\u043a\u0443 \u0441\u0435\u0440\u0434\u0435\u0447\u043d\u043e\u0433\u043e \u0440\u0438\u0442\u043c\u0430 \u0434\u043e\u0431\u0430\u0432\u0438\u043b\u0441\u044f \u0432\u0442\u043e\u0440\u043e\u0439 \u2013 \u044d\u043b\u0435\u043a\u0442\u0440\u0438\u0447\u0435\u0441\u043a\u0438\u0439. \u041f\u0440\u0438 \u044d\u0442\u043e\u043c \u0431\u0430\u0437\u043e\u0432\u0430\u044f \u0432\u0435\u0440\u0441\u0438\u044f Apple Watch \u043d\u0435 \u043e\u0442\u043b\u0438\u0447\u0430\u0435\u0442\u0441\u044f \u0432\u043d\u0435\u0448\u043d\u0435 \u043e\u0442 Series 4, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u0432\u0441\u0435 \u0440\u0435\u043c\u0435\u0448\u043a\u0438 \u0438 \u0431\u0440\u0430\u0441\u043b\u0435\u0442\u044b \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u0438\u043c\u044b \u0438 \u0441 Series 5",
+    "price": "32990.00",
+    "image": "images/products/1-watch-series-5-44mm-serebristyj-belyj/1-watch-series-5-44mm-serebristyj-belyj.jpg",
+    "stock": 20,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 14,
+  "fields": {
+    "category": 3,
+    "brand": 3,
+    "model": "Galaxy Watch 46\u043c\u043c, 1.3\"",
+    "slug": "3-galaxy-watch-46mm-13-serebristyj-chernyj",
+    "description": "\u0421\u043c\u0430\u0440\u0442-\u0447\u0430\u0441\u044b Samsung Galaxy Watch \u0432 \u0441\u0435\u0440\u0435\u0431\u0440\u0438\u0441\u0442\u043e\u043c \u043a\u043e\u0440\u043f\u0443\u0441\u0435 \u0443\u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u043e\u0432\u0430\u043d\u044b \u0447\u0435\u0440\u043d\u044b\u043c \u0440\u0435\u043c\u0435\u0448\u043a\u043e\u043c, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u043f\u043e\u0437\u0432\u043e\u043b\u0438\u0442 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0443 \u0441\u0442\u0438\u043b\u044c\u043d\u043e \u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c\u0441\u044f \u043d\u0430 \u0432\u0430\u0448\u0435\u0439 \u0440\u0443\u043a\u0435. \u042d\u0442\u043e \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0435 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e, \u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u0431\u0443\u0434\u0435\u0442 \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0442\u044c \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u0444\u0443\u043d\u043a\u0446\u0438\u044e \u0447\u0430\u0441\u043e\u0432, \u043d\u043e \u0438 \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u043e \u0444\u0443\u043d\u043a\u0446\u0438\u0439, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043f\u043e\u043c\u043e\u0433\u0443\u0442 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044e \u0432 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u044b\u0445 \u0434\u043e\u0441\u0442\u0438\u0436\u0435\u043d\u0438\u044f\u0445. \u041d\u0430 \u0441\u0435\u043d\u0441\u043e\u0440\u043d\u043e\u043c \u0434\u0438\u0441\u043f\u043b\u0435\u0435 \u0434\u0438\u0430\u0433\u043e\u043d\u0430\u043b\u044c\u044e 1.3\" \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f Super AMOLED, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0434\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u043e\u0435 \u0434\u043b\u044f \u0432\u043e\u0441\u043f\u0440\u0438\u044f\u0442\u0438\u044f \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u0432 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043d\u0438\u0438 360x360.\r\nSamsung Galaxy Watch \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043a \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430\u043c Android 5.0, iOS 9 \u0438 \u0431\u043e\u043b\u0435\u0435 \u043f\u043e\u0437\u0434\u043d\u0438\u0445 \u0432\u0435\u0440\u0441\u0438\u0439, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044f \u0441\u0432\u044f\u0437\u044c Bluetooth, Wi-Fi \u0438\u043b\u0438 NFC. \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f NFC \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u043f\u0440\u043e\u0438\u0441\u0445\u043e\u0434\u0438\u0442 \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438: \u0441\u0442\u043e\u0438\u0442 \u0440\u0430\u0437 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u044c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u0438 \u043f\u043e\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0435 \u0440\u0430\u0437\u044b \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0435\u043d\u0438\u0435 \u0431\u0443\u0434\u0435\u0442 \u043e\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043b\u044f\u0442\u044c\u0441\u044f \u043f\u0440\u0438 \u043f\u043e\u0434\u043d\u0435\u0441\u0435\u043d\u0438\u0438 \u0447\u0430\u0441\u043e\u0432 \u043a \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0443. \u0412\u044b\u043f\u043e\u043b\u043d\u0435\u043d\u043d\u044b\u0439 \u0438\u0437 \u043c\u0435\u0442\u0430\u043b\u043b\u0430 \u0438 \u0441\u0442\u0435\u043a\u043b\u0430, \u0447\u0430\u0441\u044b \u043f\u0440\u0435\u0434\u0443\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u044e\u0442 \u0437\u0430\u0449\u0438\u0442\u0443 \u043a\u043e\u0440\u043f\u0443\u0441\u0430 IP68, \u0447\u0442\u043e \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f\u043c \u043d\u0435 \u0431\u043e\u044f\u0442\u044c\u0441\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u0432 \u0434\u043e\u0436\u0434\u044c \u0438\u043b\u0438 \u043f\u0440\u0438 \u0441\u0438\u043b\u044c\u043d\u043e\u0439 \u0437\u0430\u043f\u044b\u043b\u0435\u043d\u043d\u043e\u0441\u0442\u0438. \u041c\u043e\u0434\u0435\u043b\u044c \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u043e\u0435, \u043c\u0435\u0445\u0430\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0438 \u0441\u0435\u043d\u0441\u043e\u0440\u043d\u043e\u0435 \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435.",
+    "price": "22990.00",
+    "image": "images/products/3-galaxy-watch-46mm-13-serebristyj-chernyj/3-galaxy-_Ior5951.322_\u0441\u0435\u0440\u0435\u0431\u0440\u0438\u0441\u0442\u044b\u0438__\u0447\u0435\u0440\u043d\u044b\u0438",
+    "stock": 9,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 15,
+  "fields": {
+    "category": 12,
+    "brand": 8,
+    "model": "SmartPro Compact",
+    "slug": "8-smartpro-compact",
+    "description": "Philips SmartPro Compact \u2014 \u044d\u0442\u043e \u0440\u043e\u0431\u043e\u0442-\u043f\u044b\u043b\u0435\u0441\u043e\u0441, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0432 \u0434\u0432\u0430 \u0440\u0430\u0437\u0430 \u0431\u044b\u0441\u0442\u0440\u0435\u0435 \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442 \u0437\u0430 \u0432\u0430\u0441 \u0443\u0431\u043e\u0440\u043a\u0443 \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0431\u043e\u043b\u0435\u0435 \u0448\u0438\u0440\u043e\u043a\u043e\u0439 \u043d\u0430\u0441\u0430\u0434\u043a\u0435 TriActive XL. \u0421\u0438\u0441\u0442\u0435\u043c\u0430 Smart Detection \u0432\u044b\u0431\u0438\u0440\u0430\u0435\u0442 \u043e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u044b\u0439 \u0440\u0435\u0436\u0438\u043c \u0434\u043b\u044f \u0442\u0449\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0443\u0431\u043e\u0440\u043a\u0438 \u0434\u043e\u043c\u0430.\r\n\r\n\u041d\u0430\u0441\u0430\u0434\u043a\u0430 TriActive XL \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0432\u0430\u0435\u0442 \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u0443\u044e \u0438 \u0442\u0449\u0430\u0442\u0435\u043b\u044c\u043d\u0443\u044e \u0443\u0431\u043e\u0440\u043a\u0443 \u0432 \u0434\u0432\u0430 \u0440\u0430\u0437\u0430 \u0431\u044b\u0441\u0442\u0440\u0435\u0435 \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u043c \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u044f\u043c:\r\n1. \u0428\u0438\u0440\u043e\u043a\u0430\u044f \u043d\u0430\u0441\u0430\u0434\u043a\u0430 \u0432 \u0434\u0432\u0430 \u0440\u0430\u0437\u0430 \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u043f\u043b\u043e\u0449\u0430\u0434\u044c \u043e\u0445\u0432\u0430\u0442\u0430 \u043d\u0430\u043f\u043e\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u043e\u043a\u0440\u044b\u0442\u0438\u044f \u0437\u0430 \u043e\u0434\u043d\u043e \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u0435.\r\n2. \u0422\u0440\u0438 \u0432\u0441\u0430\u0441\u044b\u0432\u0430\u044e\u0449\u0438\u0445 \u043e\u0442\u0432\u0435\u0440\u0441\u0442\u0438\u044f \u0441\u043e\u0431\u0438\u0440\u0430\u044e\u0442 \u043f\u044b\u043b\u044c \u0432\u043f\u0435\u0440\u0435\u0434\u0438 \u0438 \u043f\u043e \u043e\u0431\u0435\u0438\u043c \u0441\u0442\u043e\u0440\u043e\u043d\u0430\u043c.\r\n3. \u0413\u0438\u0431\u043a\u0430\u044f \u043f\u043e\u043b\u043e\u0441\u043a\u0430 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0442\u0449\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u0441\u043e\u0431\u0440\u0430\u0442\u044c \u0432\u0441\u044e \u043e\u0441\u0442\u0430\u0432\u0448\u0443\u044e\u0441\u044f \u043f\u044b\u043b\u044c.\r\n\r\n\u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0442\u043e\u043d\u043a\u043e\u043c\u0443 \u043a\u043e\u0440\u043f\u0443\u0441\u0443 6 \u0441\u043c \u0440\u043e\u0431\u043e\u0442-\u043f\u044b\u043b\u0435\u0441\u043e\u0441 \u043b\u0435\u0433\u043a\u043e \u0443\u0431\u0438\u0440\u0430\u0435\u0442 \u0433\u0440\u044f\u0437\u044c \u043f\u043e\u0434 \u043c\u0435\u0431\u0435\u043b\u044c\u044e \u0438 \u0432 \u0434\u0440\u0443\u0433\u0438\u0445 \u0442\u0440\u0443\u0434\u043d\u043e\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\u0445 \u043c\u0435\u0441\u0442\u0430\u0445.",
+    "price": "21360.00",
+    "image": "images/products/8-smartpro-compact/8-smartpro-compact.jpg",
+    "stock": 2,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 16,
+  "fields": {
+    "category": 12,
+    "brand": 9,
+    "model": "Roomba i7,",
+    "slug": "9-roomba-i7",
+    "description": "Roomba i7 \u2013 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043b\u044c \u043d\u043e\u0432\u043e\u0439 \u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u0438 \u0440\u043e\u0431\u043e\u0442\u043e\u0432 \u0434\u043b\u044f \u0441\u0443\u0445\u043e\u0439 \u0443\u0431\u043e\u0440\u043a\u0438 \u043f\u043e\u043b\u0430, \u0432\u044b\u043f\u0443\u0441\u043a\u0430\u0435\u043c\u044b\u0445 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0435\u0439 iRobot. \u041d\u043e\u0432\u0430\u044f \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f \u0432\u0430\u043a\u0443\u0443\u043c\u043d\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b Roomba i7 \u0434\u0430\u0435\u0442 \u0435\u043c\u0443 10-\u043a\u0440\u0430\u0442\u043d\u043e\u0435 \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u0432 \u0441\u0438\u043b\u0435 \u0432\u0441\u0430\u0441\u044b\u0432\u0430\u043d\u0438\u044f \u043f\u043e \u0441\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044e \u0441 \u043c\u043e\u0434\u0435\u043b\u044f\u043c\u0438 Roomba 600 \u0441\u0435\u0440\u0438\u0438. \u0412\u0430\u043b\u0438\u043a\u0438-\u0441\u043a\u0440\u0435\u0431\u043a\u0438 \u0438\u043c\u0435\u044e\u0442 \u043d\u0435\u043e\u0434\u0438\u043d\u0430\u043a\u043e\u0432\u044b\u0439 \u0434\u0438\u0437\u0430\u0439\u043d \u043b\u043e\u043f\u0430\u0441\u0442\u0435\u0439. \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u043d\u0435\u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u044e \u00ab\u0448\u0430\u0433\u0430 \u043f\u0440\u043e\u0442\u0435\u043a\u0442\u043e\u0440\u043e\u0432\u00bb \u043e\u043d\u0438 \u043e\u0447\u0435\u043d\u044c \u0442\u0449\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u0447\u0438\u0441\u0442\u044f\u0442 \u043f\u043e\u043b\u044b, \u0433\u0430\u0440\u0430\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0437\u0430\u0445\u0432\u0430\u0442\u044b\u0432\u0430\u044f \u0432\u0441\u0435 \u043e\u0442 \u043a\u0440\u0443\u043f\u043d\u043e\u0433\u043e \u043c\u0443\u0441\u043e\u0440\u0430 \u0434\u043e \u043c\u0435\u043b\u043a\u043e\u0439 \u043f\u044b\u043b\u0438.",
+    "price": "45807.00",
+    "image": "images/products/9-roomba-i7/9-roomba-i7.jpg",
+    "stock": 9,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 17,
+  "fields": {
+    "category": 7,
+    "brand": 10,
+    "model": "Studio3 Wireless",
+    "slug": "10-studio3-wireless",
+    "description": "Beats Studio3 Wireless \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u044e\u0442 \u0441\u043e\u0431\u043e\u0439 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u044b\u0435 \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 \u0441 \u043f\u0435\u0440\u0435\u0434\u043e\u0432\u044b\u043c\u0438 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u044f\u043c\u0438 \u043f\u043e\u0434\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0448\u0443\u043c\u043e\u0432. \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0430\u0434\u0430\u043f\u0442\u0438\u0432\u043d\u043e\u0439 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 Pure ANC \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 \u0441\u0430\u043c\u0438 \u0431\u0443\u0434\u0443 \u043e\u043f\u0440\u0435\u0434\u0435\u043b\u044f\u0442\u044c \u043a\u0430\u043a\u0438\u0435 \u0437\u0432\u0443\u043a\u0438 \u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0438 \u043f\u043e\u0434\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u0442\u044c\u0441\u044f \u043f\u043e\u0434 \u0438\u043d\u0434\u0438\u0432\u0438\u0434\u0443\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u043a\u0443\u0441 \u043a\u0430\u0436\u0434\u043e\u0433\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f. \u041c\u0443\u0437\u044b\u043a\u0430 \u043e\u0431\u0440\u0435\u0442\u0435\u0442 \u0430\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0439 \u0437\u0432\u0443\u043a.\r\n\u0412 \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u044b\u0445 \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u0430\u0445 Beats Studio3 Wireless \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u043e\u0440 Apple W1, \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u043a\u043e\u0442\u043e\u0440\u043e\u0433\u043e \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442\u0441\u044f \u043f\u043e\u043b\u043d\u043e\u0446\u0435\u043d\u043d\u0430\u044f \u043e\u0431\u0440\u0430\u0442\u043d\u0430\u044f \u0441\u0432\u044f\u0437\u044c \u0441 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430\u043c\u0438 \u043e\u0442 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 Apple, \u043f\u0440\u0438 \u044d\u0442\u043e\u043c \u043e\u0431\u043b\u0430\u0434\u0430\u044f \u043d\u0438\u0437\u043a\u0438\u043c \u044d\u043d\u0435\u0440\u0433\u043e\u043f\u043e\u0442\u0440\u0435\u0431\u043b\u0435\u043d\u0438\u0435\u043c. \u041d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 \u0438\u043c\u0435\u044e\u0442 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0443 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438 Fast Fuel, \u0447\u0442\u043e \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0432\u0441\u0435\u0433\u043e \u0437\u0430 10 \u043c\u0438\u043d\u0443\u0442 \u0437\u0430\u0440\u044f\u0434\u0438\u0442\u044c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e \u0434\u043b\u044f \u043f\u043e\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0435\u0433\u043e \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u0435\u0434\u0435\u043d\u0438\u044f \u043d\u0435 \u043c\u0435\u043d\u0435\u0435 \u0442\u0440\u0435\u0445 \u0447\u0430\u0441\u043e\u0432.\r\n\u041f\u0440\u043e\u0434\u0443\u043c\u0430\u043d\u043d\u0430\u044f \u044d\u0440\u0433\u043e\u043d\u043e\u043c\u0438\u043a\u0430 \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u043e\u0432 Beats Studio3 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u0431\u0435\u0437 \u043a\u0430\u043a\u0438\u0445-\u043b\u0438\u0431\u043e \u043d\u0435\u043f\u0440\u0438\u044f\u0442\u043d\u044b\u0445 \u043e\u0449\u0443\u0449\u0435\u043d\u0438\u0439 \u043d\u043e\u0441\u0438\u0442\u044c \u0438\u0445 \u0432 \u0442\u0435\u0447\u0435\u043d\u0438\u0438 \u0432\u0441\u0435\u0433\u043e \u0434\u043d\u044f. \u0424\u0438\u0440\u043c\u0435\u043d\u043d\u0430\u044f \u0433\u0438\u0431\u043a\u0430\u044f \u043f\u043e\u0432\u043e\u0440\u043e\u0442\u043d\u0430\u044f \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f \u043f\u043e\u0437\u0432\u043e\u043b\u0438\u0442 \u043f\u043e\u0434\u043e\u0431\u0440\u0430\u0442\u044c \u043a\u043e\u043c\u0444\u043e\u0440\u0442\u043d\u0443\u044e \u043f\u043e\u0441\u0430\u0434\u043a\u0443 \u0434\u043b\u044f \u043b\u044e\u0431\u043e\u0433\u043e \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f. \u041b\u0451\u0433\u043a\u0430\u044f, \u043f\u0440\u043e\u0447\u043d\u0430\u044f \u0438 \u0443\u0434\u043e\u0431\u043d\u0430\u044f \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u044f \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u043e\u0432 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u0435\u0442 \u043f\u043e\u0433\u0440\u0443\u0437\u0438\u0442\u044c\u0441\u044f \u0432 \u043c\u0443\u0437\u044b\u043a\u0443 \u0431\u0435\u0437 \u0447\u0443\u0432\u0441\u0442\u0432\u0430 \u0434\u0438\u0441\u043a\u043e\u043c\u0444\u043e\u0440\u0442\u0430.",
+    "price": "19990.00",
+    "image": "images/products/10-studio3-wireless/10-studio3-wireless.jpg",
+    "stock": 5,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 18,
+  "fields": {
+    "category": 7,
+    "brand": 10,
+    "model": "Solo3 Wireless",
+    "slug": "10-solo3-wireless",
+    "description": "Beats Solo\u00b3 Wireless \u2014 \u044d\u0442\u043e \u043f\u0440\u0435\u0436\u0434\u0435 \u0432\u0441\u0435\u0433\u043e \u0431\u0435\u0437\u0443\u043f\u0440\u0435\u0447\u043d\u043e\u0435 \u0437\u0432\u0443\u0447\u0430\u043d\u0438\u0435. \u0422\u043e\u043d\u043a\u0430\u044f \u043d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0430 \u0430\u043a\u0443\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0434\u0430\u0435\u0442 \u0432\u0435\u043b\u0438\u043a\u043e\u043b\u0435\u043f\u043d\u044b\u0439 \u0431\u0430\u043b\u0430\u043d\u0441, \u0448\u0438\u0440\u043e\u043a\u0438\u0439 \u0434\u0438\u0430\u043f\u0430\u0437\u043e\u043d \u0447\u0430\u0441\u0442\u043e\u0442 \u0438 \u043f\u043e\u0442\u0440\u044f\u0441\u0430\u044e\u0449\u0435\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e \u0437\u0432\u0443\u043a\u0430. \u041c\u044f\u0433\u043a\u0438\u0435 \u0430\u043c\u0431\u0443\u0448\u044e\u0440\u044b \u0438\u0437\u043e\u043b\u0438\u0440\u0443\u044e\u0442 \u0432\u0441\u0435 \u043b\u0438\u0448\u043d\u0438\u0435 \u0448\u0443\u043c\u044b, \u0447\u0442\u043e\u0431\u044b \u0432\u044b \u0443\u0441\u043b\u044b\u0448\u0430\u043b\u0438 \u043c\u0443\u0437\u044b\u043a\u0443 \u0442\u0430\u043a\u043e\u0439, \u043a\u0430\u043a\u043e\u0439 \u0435\u0435 \u0437\u0430\u0434\u0443\u043c\u0430\u043b\u0438 \u0441\u043e\u0437\u0434\u0430\u0442\u0435\u043b\u0438.",
+    "price": "14990.00",
+    "image": "images/products/10-solo3-wireless/10-solo3-wireless.jpg",
+    "stock": 4,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 19,
+  "fields": {
+    "category": 7,
+    "brand": 1,
+    "model": "AirPods",
+    "slug": "1-airpods-charging-case",
+    "description": "Apple AirPods with Charging Case \u2013 \u0437\u0430\u043c\u0435\u0447\u0430\u0442\u0435\u043b\u044c\u043d\u043e\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u0435 \u0434\u043b\u044f \u043c\u0435\u043b\u043e\u043c\u0430\u043d\u043e\u0432. \u041e\u043d\u0438 \u0434\u0430\u0440\u044f\u0442 \u043f\u0440\u0430\u043a\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u0432\u0435\u0447\u043d\u0443\u044e \u043c\u0443\u0437\u044b\u043a\u0443. \u0412\u0435\u0434\u044c \u0434\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0441\u0442\u043e \u043f\u0440\u0438 \u0432\u0441\u0442\u0440\u0435\u0447\u0435 \u0441 \u043f\u0440\u0438\u044f\u0442\u0435\u043b\u0435\u043c \u043f\u043e\u043b\u043e\u0436\u0438\u0442\u044c \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 \u0432 \u0447\u0435\u0445\u043e\u043b, \u0438 \u043e\u043d\u0438 \u043f\u043e\u0434\u0437\u0430\u0440\u044f\u0434\u044f\u0442\u0441\u044f. \u0414\u0430 \u0438 \u0431\u0435\u0437 \u044d\u0442\u043e\u0433\u043e \u0433\u0430\u0440\u043d\u0438\u0442\u0443\u0440\u0430 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0442 \u0434\u043e 3 \u0447\u0430\u0441\u043e\u0432 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u043e\u0432.\r\n\r\n\u0414\u043e\u0441\u0442\u0430\u0442\u043e\u0447\u043d\u043e \u043f\u0440\u043e\u0441\u0442\u043e \u0432\u044b\u043d\u0443\u0442\u044c \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u043e, \u0438 \u043e\u043d\u043e \u0441\u0440\u0430\u0437\u0443 \u0436\u0435 \u043d\u0430\u0439\u0434\u0435\u0442 \u0442\u0435\u043b\u0435\u0444\u043e\u043d \u0438 \u043f\u043e\u0434\u043a\u043b\u044e\u0447\u0438\u0442\u0441\u044f \u043a \u043d\u0435\u043c\u0443 \u0431\u0435\u0437 \u043b\u0438\u0448\u043d\u0438\u0445 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u0439. \u041d\u0438\u043a\u0430\u043a\u0438\u0445 \u043d\u0435\u0443\u0434\u043e\u0431\u043d\u044b\u0445 \u0438 \u0433\u0440\u043e\u043c\u043a\u0438\u0445 \u043a\u043d\u043e\u043f\u043e\u043a \u2013 \u043f\u0440\u043e\u0441\u0442\u043e \u043a\u043e\u0441\u043d\u0438\u0442\u0435\u0441\u044c \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u0430 \u0434\u0432\u0430 \u0440\u0430\u0437\u0430 \u0438 \u043f\u0440\u0438\u043c\u0438\u0442\u0435 \u0437\u0432\u043e\u043d\u043e\u043a \u0438\u043b\u0438 \u043f\u0435\u0440\u0435\u043a\u043b\u044e\u0447\u0438\u0442\u0435 \u0442\u0440\u0435\u043a. \u041d\u0443 \u0438, \u043a\u043e\u043d\u0435\u0447\u043d\u043e \u0436\u0435, \u043f\u0440\u0435\u0441\u043b\u043e\u0432\u0443\u0442\u043e\u0435 Apple-\u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e \u043c\u0443\u0437\u044b\u043a\u0438. \u0427\u0442\u043e \u0435\u0449\u0435 \u043d\u0443\u0436\u043d\u043e \u0434\u043b\u044f \u0441\u0447\u0430\u0441\u0442\u044c\u044f?",
+    "price": "13390.00",
+    "image": "images/products/1-airpods-charging-case/1-airpods-charging-case.jpg",
+    "stock": 25,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 20,
+  "fields": {
+    "category": 6,
+    "brand": 11,
+    "model": "HD 800 S, 6.3 \u043c\u043c",
+    "slug": "11-hd-800-s-63-mm",
+    "description": "Sennheiser HD 800 S \u2013 \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 \u043e\u0442\u043a\u0440\u044b\u0442\u043e\u0433\u043e \u0442\u0438\u043f\u0430 \u0434\u043b\u044f \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u043e\u0432. \u041e\u043d\u0438 \u043f\u043e\u043d\u0440\u0430\u0432\u044f\u0442\u0441\u044f \u0437\u0432\u0443\u043a\u043e\u0440\u0435\u0436\u0438\u0441\u0441\u0435\u0440\u0430\u043c, \u043a\u0438\u0431\u0435\u0440\u0441\u043f\u043e\u0440\u0442\u0441\u043c\u0435\u043d\u0430\u043c \u0438 \u0430\u0443\u0434\u0438\u043e\u0444\u0438\u043b\u0430\u043c \u2013 \u0432\u0441\u0435\u043c, \u043a\u043e\u043c\u0443 \u0432\u0430\u0436\u043d\u043e \u0437\u0432\u0443\u0447\u0430\u043d\u0438\u0435 \u043a\u0430\u0436\u0434\u043e\u0439 \u043d\u043e\u0442\u044b.\r\n\u041b\u0443\u0447\u0448\u0438\u0435 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b\r\nSennheiser HD 800 S \u2013 \u044d\u0442\u0430\u043b\u043e\u043d \u043f\u0440\u0435\u0441\u043b\u043e\u0432\u0443\u0442\u043e\u0433\u043e \u043d\u0435\u043c\u0435\u0446\u043a\u043e\u0433\u043e \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430. \u041d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 \u0441\u043e\u0431\u0440\u0430\u043d\u044b \u0442\u043e\u043b\u044c\u043a\u043e \u0438\u0437 \u0432\u044b\u0441\u043e\u043a\u043e\u043a\u043b\u0430\u0441\u0441\u043d\u044b\u0445 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u043e\u0432. \u041a\u0440\u0435\u043f\u043b\u0435\u043d\u0438\u044f \u0441\u043e\u0437\u0434\u0430\u043d\u044b \u0438\u0437 \u0442\u0438\u0442\u0430\u043d\u0430 \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u043e\u0432, \u043f\u0440\u0438\u043c\u0435\u043d\u044f\u0435\u043c\u044b\u0445 \u0432 \u0440\u0430\u043a\u0435\u0442\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0438\u0438. \u041f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c \u0438\u0437 \u043d\u0435\u0440\u0436\u0430\u0432\u0435\u044e\u0449\u0435\u0439 \u0441\u0442\u0430\u043b\u0438. \u0412\u0441\u0435 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0430\u043d\u043e \u0438 \u0441\u0434\u0435\u043b\u0430\u043d\u043e \u0442\u0430\u043a, \u0447\u0442\u043e\u0431\u044b \u0441\u043e\u0441\u0440\u0435\u0434\u043e\u0442\u043e\u0447\u0438\u0442\u044c\u0441\u044f \u043d\u0430 \u0437\u0432\u0443\u043a\u0435, \u0430 \u043d\u0435 \u043d\u0430 \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u0430\u0445. \u041a\u0430\u0431\u0435\u043b\u044c \u0434\u043b\u0438\u043d\u043e\u0439 3 \u043c \u043d\u0435 \u043c\u0435\u0448\u0430\u0435\u0442 \u0441\u0438\u0433\u043d\u0430\u043b\u0443.\r\n\u0421\u043b\u044b\u0448\u043d\u043e \u0432\u0441\u0435",
+    "price": "109900.00",
+    "image": "images/products/11-hd-800-s-63-mm/11-hd-800-s-63-mm.3_\u043c\u043c",
+    "stock": 2,
+    "available": true
+  }
+},
+{
+  "model": "store.product",
+  "pk": 21,
+  "fields": {
+    "category": 6,
+    "brand": 12,
+    "model": "SE-LTC3R, Lightning",
+    "slug": "12-se-ltc3r-lightning",
+    "description": "Pioneer SE-LTC3R \u2013 \u043b\u0451\u0433\u043a\u0438\u0435 \u0438 \u0443\u0434\u043e\u0431\u043d\u044b\u0435 \u0432\u0441\u0442\u0430\u0432\u043d\u044b\u0435 \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u0438. \u041e\u043d\u0438 \u043e\u0431\u043e\u0440\u0443\u0434\u043e\u0432\u0430\u043d\u044b \u043a\u043e\u043d\u043d\u0435\u043a\u0442\u043e\u0440\u043e\u043c Lightning \u0438 \u043f\u0440\u0435\u0434\u043d\u0430\u0437\u043d\u0430\u0447\u0435\u043d\u044b \u0434\u043b\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f \u0441 \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u0438\u043c\u044b\u043c\u0438 \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u0430\u043c\u0438 \u0438 \u043f\u043b\u0430\u043d\u0448\u0435\u0442\u0430\u043c\u0438 Apple.\r\n\r\n\u042d\u0442\u0430 \u043c\u043e\u0434\u0435\u043b\u044c \u0432\u043e\u0441\u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0438\u0442 \u0438 \u043c\u043e\u0449\u043d\u044b\u0435 \u0431\u0430\u0441\u044b, \u0438 \u0437\u0432\u043e\u043d\u043a\u0438\u0435 \u0432\u044b\u0441\u043e\u043a\u0438\u0435 \u043d\u043e\u0442\u044b, \u043f\u043e\u044d\u0442\u043e\u043c\u0443 \u0446\u0435\u043d\u0438\u0442\u0435\u043b\u044f\u043c \u043c\u0443\u0437\u044b\u043a\u0438 \u043f\u043e\u043d\u0440\u0430\u0432\u0438\u0442\u0441\u044f, \u043a\u0430\u043a \u0437\u0432\u0443\u0447\u0430\u0442 \u0438\u0445 \u043b\u044e\u0431\u0438\u043c\u044b\u0435 \u043a\u043e\u043c\u043f\u043e\u0437\u0438\u0446\u0438\u0438. \u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u043f\u0440\u043e\u0434\u0443\u043c\u0430\u043d\u043d\u043e\u0439 \u043a\u043e\u043d\u0441\u0442\u0440\u0443\u043a\u0446\u0438\u0438 \u043e\u043d\u0430 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0438\u0432\u0430\u0435\u0442 \u0445\u043e\u0440\u043e\u0448\u0443\u044e \u0448\u0443\u043c\u043e\u0438\u0437\u043e\u043b\u044f\u0446\u0438\u044e.",
+    "price": "14990.00",
+    "image": "images/products/12-se-ltc3r-lightning/12-se-ltc3r-lightning.jpg",
+    "stock": 7,
+    "available": true
+  }
+},
+{
+  "model": "store.article",
+  "pk": 1,
+  "fields": {
+    "title": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u043d\u0443\u0436\u043d\u044b \u0432\u0441\u0435\u043c",
+    "content": "<p>\u0412 \u0441\u0435\u0433\u043e\u0434\u043d\u044f\u0448\u043d\u0435\u043c \u043c\u0438\u0440\u0435&nbsp;\u043a\u0430\u0436\u0434\u043e\u043c\u0443 \u043d\u0443\u0436\u0435\u043d \u0443\u043c\u043d\u044b\u0439 \u0433\u0430\u0434\u0436\u0435\u0442, \u0441\u043e\u0432\u043c\u0435\u0449\u0430\u044e\u0449\u0438\u0439 \u0432 \u0441\u0435\u0431\u0435 \u0442\u0435\u043b\u0435\u0444\u043e\u043d, \u0444\u043e\u0442\u043e\u0430\u043f\u043f\u0430\u0440\u0430\u0442, \u0432\u0438\u0434\u0435\u043e\u043a\u0430\u043c\u0435\u0440\u0443, \u043c\u0443\u0437\u044b\u043a\u0430\u043b\u044c\u043d\u044b\u0439 \u043f\u0440\u043e\u0438\u0433\u0440\u044b\u0432\u0430\u0442\u0435\u043b\u044c \u0438 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0449\u0438\u0439 \u0441\u0432\u043e\u0435\u043c\u0443 \u0432\u043b\u0430\u0434\u0435\u043b\u044c\u0446\u0443 \u0441\u0435\u0440\u0444\u0438\u0442\u044c \u0432 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0435, \u043f\u043e\u043b\u0443\u0447\u0430\u0442\u044c \u0438 \u043e\u0442\u0432\u0435\u0447\u0430\u0442\u044c \u043d\u0430 \u044d\u043b. \u043f\u043e\u0447\u0442\u0443, \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u043c\u0438 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f\u043c\u0438, \u0441\u043a\u0430\u0447\u0430\u043d\u043d\u044b\u043c\u0438 \u0438\u0437 \u0443\u0434\u043e\u0431\u043d\u043e\u0433\u043e \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435.</p>\r\n\r\n<p>\u0412\u0441\u0435 \u044d\u0442\u043e \u0441\u0435\u0433\u043e\u0434\u043d\u044f \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e \u0438 \u043c\u044b \u043f\u043e\u0434\u043e\u0431\u0440\u0430\u043b\u0438 \u0434\u043b\u044f \u0432\u0430\u0441 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u044f\u0440\u043a\u0438\u0445 \u043d\u043e\u0432\u0438\u043d\u043e\u043a.&nbsp;</p>",
+    "published": "2019-10-31",
+    "is_active": true,
+    "products": [
+      8,
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "store.article",
+  "pk": 2,
+  "fields": {
+    "title": "\u041a\u0442\u043e \u0437\u043d\u0430\u0435\u0442 \u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0440\u0435\u043c\u044f?",
+    "content": "<p>\u0421\u0435\u0433\u043e\u0434\u043d\u044f \u0432\u0440\u0435\u043c\u044f \u0432\u0430\u0436\u043d\u043e \u043a\u0430\u043a \u043d\u0438\u043a\u043e\u0433\u0434\u0430. \u041a\u043e\u043d\u0435\u0447\u043d\u043e \u043c\u043e\u0436\u043d\u043e \u043f\u043e\u0441\u043c\u0442\u043e\u0442\u0435\u0442\u044c \u0442\u043e\u0447\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f \u043d\u0435 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u0435, \u043d\u043e \u043a\u043e\u0433\u043e \u0441\u0435\u0439\u0447\u0430\u0441 \u044d\u0442\u0438\u043c \u0443\u0434\u0438\u0432\u0438\u0448\u044c. \u041f\u043e\u044d\u0442\u043e\u043c\u0443, \u0432 \u0430\u0432\u0430\u043d\u0433\u0430\u0440\u0434 \u0432\u044b\u0445\u043e\u0434\u044f\u0442 \u043d\u043e\u0432\u0438\u043d\u043a\u0438 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0430. \u0417\u043d\u0430\u043a\u043e\u043c\u044c\u0442\u0435\u0441\u044c - \u0443\u043c\u043d\u044b\u0435 \u0447\u0430\u0441\u044b. \u041e\u043d\u0438 \u043d\u0435 \u0442\u043e\u043b\u044c\u043a\u043e \u043f\u043e\u043a\u0430\u0436\u0443\u0442 \u0430\u043a\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0435 \u0432\u0440\u0435\u043c\u044f, \u043d\u043e \u0438 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u044f\u0442 \u043c\u0430\u0441\u0441\u0443 \u043f\u043e\u043b\u0435\u0437\u043d\u044b\u0445 \u0444\u0438\u0448\u0435\u043a, \u043d\u0430\u0447\u0438\u043d\u0430\u044f \u043e\u0442 \u043f\u0440\u0438\u043d\u044f\u0442\u0438\u044f \u0432\u0445\u043e\u0434\u044f\u0449\u0435\u0433\u043e \u0437\u0432\u043e\u043d\u043a\u0430 \u043d\u0430 \u0432\u0430\u0448 \u0442\u0435\u043b\u0435\u0444\u043e\u043d, \u0434\u043e \u043f\u043e\u043b\u043d\u043e\u0446\u0435\u043d\u043d\u043e\u0433\u043e \u0444\u0438\u043a\u0442\u043d\u0435\u0441-\u0442\u0440\u0435\u043a\u043a\u0435\u0440\u0430. \u041a\u0430\u043a \u0432\u0441\u0435\u0433\u0434\u0430, \u043d\u0430\u0448\u0430 \u043f\u043e\u0434\u0431\u043e\u0440\u043a\u0430 \u043d\u0430 \u043b\u044e\u0431\u043e\u0439 \u0432\u043a\u0443\u0441 \u0438 \u0446\u0432\u0435\u0442.</p>",
+    "published": "2019-10-29",
+    "is_active": true,
+    "products": [
+      13,
+      14
+    ]
+  }
+},
+{
+  "model": "store.article",
+  "pk": 3,
+  "fields": {
+    "title": "\u041a\u0443\u0434\u0430 \u0436 \u0431\u0435\u0437 \u043c\u0443\u0437\u044b\u043a\u0438?!",
+    "content": "<p>\u0415\u0441\u043b\u0438 \u0443 \u0432\u0430\u0441 \u0432 \u043a\u0430\u0440\u043c\u0430\u043d\u0435, \u0441\u043c\u0430\u0440\u0442\u0444\u043e\u043d, \u0438 \u043f\u043b\u0435\u0439\u043b\u0438\u0441\u0442 \u043f\u0440\u043e\u0441\u0442\u043e \u0437\u0430\u0432\u0430\u043b\u0435\u043d \u0447\u0443\u043c\u043e\u0432\u044b\u043c\u0438 \u0442\u0440\u0435\u043a\u0430\u043c\u0438, \u0442\u043e \u0432\u0430\u043c \u043e\u0431\u044f\u0437\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u0441\u0442\u043e\u0438\u0442 \u043f\u0440\u0438\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c\u0441\u044f \u043a \u043d\u0430\u0448\u0435\u0439 \u043d\u0430\u0443\u0448\u043d\u0438\u043a\u043e\u0432. \u0421 \u043d\u0438\u043c\u0438 \u0432\u044b \u0441\u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u043e\u0442 \u043c\u0443\u0437\u044b\u043a\u0438 \u0443\u0434\u043e\u0432\u043e\u043b\u044c\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u043f\u043e\u043b\u043d\u043e\u0439.&nbsp;</p>",
+    "published": "2019-10-22",
+    "is_active": true,
+    "products": [
+      17,
+      21,
+      20
+    ]
+  }
+},
+{
+  "model": "store.article",
+  "pk": 4,
+  "fields": {
+    "title": "\u0412\u0441\u0435 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0435 \u0432\u0441\u0435\u0433\u0434\u0430 \u0441 \u0432\u0430\u043c\u0438.",
+    "content": "<p>\u0421\u0435\u0433\u043e\u0434\u043d\u044f \u043c\u0438\u0440 \u043f\u043b\u0430\u043d\u0448\u0435\u0442\u043d\u044b\u0445 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043e\u0432 \u043d\u0430\u0441\u0447\u0438\u0442\u044b\u0432\u0430\u0435\u0442 \u0442\u044b\u0441\u044f\u0447\u0438 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0445 \u043c\u043e\u0434\u0435\u043b\u0435\u0439. \u0412\u0441\u0435 \u043e\u043d\u0438 \u043e\u0442\u043b\u0438\u0447\u0430\u044e\u0442\u0441\u044f \u0431\u043e\u043b\u044c\u0448\u0438\u043c \u043a\u043e\u043b\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u043f\u0430\u0440\u0430\u043c\u0435\u0442\u0440\u043e\u0432. \u041c\u044b \u043f\u043e\u0434\u043e\u0431\u0440\u0430\u043b\u0438 \u0434\u043b\u044f \u0432\u0430\u0441 \u0441\u0430\u043c\u044b\u0435 \u043b\u0443\u0447\u0448\u0438\u0435 \u0432\u0430\u0440\u0438\u0430\u043d\u0442\u044b.&nbsp;</p>",
+    "published": "2019-10-30",
+    "is_active": true,
+    "products": [
+      9,
+      10,
+      12
+    ]
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 9,
+  "fields": {
+    "order": 20,
+    "product": 8,
+    "price": "131990.00",
+    "quantity": 2
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 10,
+  "fields": {
+    "order": 21,
+    "product": 13,
+    "price": "32990.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 11,
+  "fields": {
+    "order": 21,
+    "product": 19,
+    "price": "13390.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 12,
+  "fields": {
+    "order": 21,
+    "product": 15,
+    "price": "21360.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 13,
+  "fields": {
+    "order": 21,
+    "product": 9,
+    "price": "139990.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||03ee64324407a0c994fdc8fabec8d1d9",
+  "fields": {
+    "value": "{\"name\": \"cache/21/0f/210fda9f8822539ff4a5266c2d216d4c.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [123, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||04269d06520047c4f9befd37edc8a98c",
+  "fields": {
+    "value": "{\"name\": \"images/products/9-roomba-i7/9-roomba-i7.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [883, 900]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||0b5601b21e0fa25af1bbbb0cca436a6e",
+  "fields": {
+    "value": "{\"name\": \"cache/6c/48/6c481f8043f979fb9fba5607865689f1.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [213, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||0c888dec1a5bbbcbd940bd2875a59910",
+  "fields": {
+    "value": "{\"name\": \"cache/38/d7/38d733010e28574a370bdb696a9e3205.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [222, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||0dc5749f8f641973a83c70bb56e2cf36",
+  "fields": {
+    "value": "{\"name\": \"cache/4c/86/4c862c3308ed24cb8bf4d91f583bff5b.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [125, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||0fa3846b4f920e725220bfad30a314d1",
+  "fields": {
+    "value": "{\"name\": \"cache/07/be/07be99a75a72cd6fa3a54e493fd5706c.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||1004111555898077efed0a677293fc5d",
+  "fields": {
+    "value": "{\"name\": \"cache/67/ab/67abf9ad6a5814bbb5a89c21942046ae.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||160d0715f94ef477e60e2f789ff0bcf9",
+  "fields": {
+    "value": "{\"name\": \"cache/c7/2a/c72a0873000c412754140da89d9daa9f.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [286, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||1696784c00573867c0a66b0e286e77c5",
+  "fields": {
+    "value": "{\"name\": \"images/products/5-g7-fit-32gb/5-g7-fit-32gb.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [450, 900]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||240d6e019f9f6bd1f12029c5cad73e12",
+  "fields": {
+    "value": "{\"name\": \"cache/ee/95/ee95ca1388f8f3cf5ecb337e37e312f9.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 345]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||267976ec0d68841a235b580414327682",
+  "fields": {
+    "value": "{\"name\": \"cache/e1/ff/e1ffbbd2cab7342f518a9a8da2b1a838.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [177, 249]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||29cc6bb83030c8c7d5e59874e0707102",
+  "fields": {
+    "value": "{\"name\": \"cache/9f/fa/9ffac41215a4e54ddae831c8fcb74a52.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 500]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||2c7f1a0822ce87baaf1b604bfa21b363",
+  "fields": {
+    "value": "{\"name\": \"cache/eb/4e/eb4ed836f186947612a445d744ab42d5.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [166, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||2f36ab8cdc4c229439e49b5da44420c1",
+  "fields": {
+    "value": "{\"name\": \"cache/25/4a/254aef241731dd8e948ef591d57e17f1.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [173, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||3141e2770df0f2c3a0290adcb4a2a981",
+  "fields": {
+    "value": "{\"name\": \"cache/e1/a6/e1a6ad4e7270e9cfb3129a23004139fa.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||38788e3b7c34b1a9579ee3230ef7e2b4",
+  "fields": {
+    "value": "{\"name\": \"cache/7c/f0/7cf016bb11df909b5a335188f9ac1647.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 341]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||3af3197be4c69489b6edacf70e87cba2",
+  "fields": {
+    "value": "{\"name\": \"cache/23/bf/23bfaeea3df44fc4f7150bc9136ebc0d.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 352]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||3b0f1f29b9c052b480d85e7826bfd1ed",
+  "fields": {
+    "value": "{\"name\": \"images/products/1-iphone-8-plus-64gb/1-iphone-8-plus-64gb_Jp4EXbN.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [450, 900]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||3daa31405dd54107a368800d0c8a598e",
+  "fields": {
+    "value": "{\"name\": \"cache/69/a8/69a8195c11ce6e1bf5e47f8784bdfe4e.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 413]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||461fff499bd4d9cf0af4c0290c721ec8",
+  "fields": {
+    "value": "{\"name\": \"cache/2c/23/2c23d6fede013ed94fee3526e90eeff3.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 282]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||498dfbc0a64e4df3cfe68388ecb0f2cc",
+  "fields": {
+    "value": "{\"name\": \"cache/b4/99/b499497b2ae293de0b7b609c68c0bba6.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 439]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||502f1ee6f6a2753a0b80fd25dcae23d6",
+  "fields": {
+    "value": "{\"name\": \"cache/19/0e/190e9f173c7fc2dcb1762c56d375fb67.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [165, 249]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||54895b5ab138f0f9463ae23191fa422b",
+  "fields": {
+    "value": "{\"name\": \"cache/b3/8b/b38b3ac6f6f7de384dcde8903a8ccefe.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [125, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||55000d38df6db4ce9949f1a938a73d99",
+  "fields": {
+    "value": "{\"name\": \"images/products/2-p30-pro-256gb/2-p30-pro-256gb.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [320, 672]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||5bfb31e53bd8c3f603a0b96f92b210f6",
+  "fields": {
+    "value": "{\"name\": \"cache/bc/5a/bc5a5893fe3c39f65d21528f749fab8b.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [181, 181]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||5ccc54e8c9a2917d3cabb9644cfdd8ef",
+  "fields": {
+    "value": "{\"name\": \"cache/9f/8b/9f8bf101822b3cc9dd14a1f7667af970.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [178, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||5dfd71a1cd2685b9cddb2640e9a714b6",
+  "fields": {
+    "value": "{\"name\": \"cache/49/32/49327ddf0db4710ff219bac7e0ad3b87.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 366]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||5f0a5625d1b30dbac62cb4ea66118f4a",
+  "fields": {
+    "value": "{\"name\": \"images/products/3-galaxy-watch-46mm-13-serebristyj-chernyj/3-galaxy-_Ior5951.322_\\u0441\\u0435\\u0440\\u0435\\u0431\\u0440\\u0438\\u0441\\u0442\\u044b\\u0438__\\u0447\\u0435\\u0440\\u043d\\u044b\\u0438\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [1000, 1000]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||5f262e6d52c20f429d234b556c7db99d",
+  "fields": {
+    "value": "{\"name\": \"cache/84/c5/84c53dc222a34ca226cf897d79b1f347.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [119, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||6359d63d12d18800a91c363bbe476adb",
+  "fields": {
+    "value": "{\"name\": \"cache/98/35/9835a9fbb946a8559b9bb4e58bf1e8d9.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [181, 181]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||687706b3f1e347645cbcd0868e5d576c",
+  "fields": {
+    "value": "{\"name\": \"cache/fb/05/fb05cfbe212a87b6e96068a383e7d2bf.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [181, 249]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||6c4935a596fd7d25f501b980f80b40fb",
+  "fields": {
+    "value": "{\"name\": \"cache/98/a4/98a4bef6534d4bc5d92c44086cac00bf.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [385, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||6dcf3a36dc72ac22211390cbd94dc5d3",
+  "fields": {
+    "value": "{\"name\": \"cache/63/b4/63b4fa02515d9be43cb282dabea466bc.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 422]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||6f41a88666b923cf0c160a07392cd574",
+  "fields": {
+    "value": "{\"name\": \"images/products/10-solo3-wireless/10-solo3-wireless.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [484, 700]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||6ff7135ef3c99b44317c1e353cd5ba14",
+  "fields": {
+    "value": "{\"name\": \"cache/5e/b0/5eb0399481c9c714f7ca23a834df0262.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||7479752a0d17430c400e60d47207a842",
+  "fields": {
+    "value": "{\"name\": \"images/products/1-airpods-charging-case/1-airpods-charging-case.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [451, 600]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||757646fdfb50874993f87f47c7cf3819",
+  "fields": {
+    "value": "{\"name\": \"images/products/11-hd-800-s-63-mm/11-hd-800-s-63-mm.3_\\u043c\\u043c\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [640, 900]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||7aedd4897f825f0912bb87df920ff97f",
+  "fields": {
+    "value": "{\"name\": \"cache/56/12/5612215ebbf460fc3f4be1dd044c5a7f.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [188, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||7ca91c5a5f3a3bc5678faddf53f5c7b5",
+  "fields": {
+    "value": "{\"name\": \"images/products/3-galaxy-tab-s6-sm-t865n-6gb-128gb/3-galaxy-tab-s6-sm-t865n-6gb-128gb.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [384, 580]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||82c0b13f20133f00068408af4d630c38",
+  "fields": {
+    "value": "{\"name\": \"images/products/2-mediapad-m5-100-lite/2-mediapad-m5-100-lite.0_Lite\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [900, 585]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||852ecce15055d7702e583c187b51c300",
+  "fields": {
+    "value": "{\"name\": \"cache/53/0e/530efbcb93131b1e13a30a82a4e51358.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [119, 249]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||86aef5ebc261c5576b3f4076d4a0206d",
+  "fields": {
+    "value": "{\"name\": \"cache/9d/27/9d27243837f324b95070456d6af9a8fb.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [125, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||89f644fc63616c44fc288318c8579ce2",
+  "fields": {
+    "value": "{\"name\": \"cache/0b/bc/0bbc1cc0aa28a4423dc9295a39b34148.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 525]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||8ccb3fbfb5c6712917d9db682e92fdf4",
+  "fields": {
+    "value": "{\"name\": \"images/products/8-smartpro-compact/8-smartpro-compact.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [900, 788]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||8dfaec7f1897d895e79f48504d6b3ed4",
+  "fields": {
+    "value": "{\"name\": \"images/products/3-galaxy-note-10-256gb/3-galaxy-note-10-256gb.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [442, 900]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||8effc89a42e7822995e03cdd60f47858",
+  "fields": {
+    "value": "{\"name\": \"images/products/12-se-ltc3r-lightning/12-se-ltc3r-lightning.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [900, 900]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||91fdadfbadb7ccc5a2450e8feadcae06",
+  "fields": {
+    "value": "{\"name\": \"cache/5c/b2/5cb2811de94218931f7a4dbe4e46344c.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||957f51bff2f43900512f18d89279415d",
+  "fields": {
+    "value": "{\"name\": \"cache/d1/21/d1210be7507b406e96fe507c9c805856.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 338]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||9b02e2f8f19839488e06530b4e1a5f8f",
+  "fields": {
+    "value": "{\"name\": \"cache/94/97/949778011ee54d2fd6ea1ef5d0de9ddf.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 300]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||a84602080b7c83c830af0d7387cb7dd4",
+  "fields": {
+    "value": "{\"name\": \"cache/e2/58/e2580d9d06955892f2b7ff6ba8b8aa08.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [245, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||b386e1137b8242141ae6ff963c719221",
+  "fields": {
+    "value": "{\"name\": \"images/products/1-ipad-mini-2019-64gb-wi-fi/1-ipad-mini-2019-64gb-wi-fi.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [470, 530]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||b41394ed50717459f071cfdc54cab95d",
+  "fields": {
+    "value": "{\"name\": \"cache/c5/78/c5785c8f4443162cdea682bf1069c08a.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 630]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||b8d1a6ea09947d8bc1ae9f50cd47c0ef",
+  "fields": {
+    "value": "{\"name\": \"cache/6e/8d/6e8d71d83edb7fd5120de4ecb031cf0d.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [181, 249]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||c251e4c7c2ef482184af7dceb5318454",
+  "fields": {
+    "value": "{\"name\": \"cache/3b/13/3b13eabf832ef5a2a2dbd6332d2c68dc.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [181, 247]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||c6dd3e62fbb0145fdfc3902a88b4b584",
+  "fields": {
+    "value": "{\"name\": \"cache/b1/3c/b13cd9be9ca61860be3026fff8132578.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 294]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||c7fdc913956a5cea80559c498e9cf938",
+  "fields": {
+    "value": "{\"name\": \"cache/f5/8f/f58fb3c056de4dd15ddd08b9d192c7bc.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [250, 378]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||c89fe79f86a6cbd51925e0e381ff85ac",
+  "fields": {
+    "value": "{\"name\": \"cache/30/c5/30c52f37aeb08bf8699644ecd59a53a6.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [181, 213]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||cb4cfb47ba8c7334820452ba44cd5f06",
+  "fields": {
+    "value": "{\"name\": \"cache/d0/b8/d0b8bd8b72f048936bfbdf108f06d08d.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [170, 249]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||cb78d13b9b67554629bf182fa1d0eca7",
+  "fields": {
+    "value": "{\"name\": \"cache/bb/7e/bb7ec2b476f01392dac16485f0663796.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [171, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||ce1414bebb0b0a53239c14bb2bd75f69",
+  "fields": {
+    "value": "{\"name\": \"cache/43/52/4352ff06410c25d6ab65854af6b43c46.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 600]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||d2dce4e6dcebb9aadf3d43389ff24682",
+  "fields": {
+    "value": "{\"name\": \"cache/9d/94/9d94114cc805c10bb6bc279a9a74a23d.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [115, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||d7f242cbfeaf121e58be29464f54f2eb",
+  "fields": {
+    "value": "{\"name\": \"images/products/1-iphone-11-pro-max-512gb/1-iphone-11-pro-max-512gb.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [653, 900]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||daa4682fbeb9f5c31d2022a326fbbd4a",
+  "fields": {
+    "value": "{\"name\": \"images/products/10-studio3-wireless/10-studio3-wireless.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [648, 883]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||db4a73ea6ee66695a84e475f741d9dbd",
+  "fields": {
+    "value": "{\"name\": \"cache/9b/d6/9bd655c75c2c2bfb02cb8f192acc3e22.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 453]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||dd88de9e06fb753f4d23e5e428d5b853",
+  "fields": {
+    "value": "{\"name\": \"images/products/7-mi-9t-pro-128gb/7-mi-9t-pro-128gb.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [414, 900]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||de2b38a392f391024551ca84494a57cd",
+  "fields": {
+    "value": "{\"name\": \"cache/98/5c/985cc1fe0df6824fcde661d4f29533e7.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 352]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||dfdb63aea3017d6c33d2f494bb01a0ed",
+  "fields": {
+    "value": "{\"name\": \"cache/a8/23/a823e6bb7288e2be4b056cf4e1af543a.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [300, 409]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||e38c4a84d8f372d5ebc5351ee12ca890",
+  "fields": {
+    "value": "{\"name\": \"images/products/1-watch-series-5-44mm-serebristyj-belyj/1-watch-series-5-44mm-serebristyj-belyj.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [766, 900]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||e71245f460dfca01705ea36f9d9fd772",
+  "fields": {
+    "value": "{\"name\": \"images/products/6-16th-64gb/6-16th-64gb.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [450, 900]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||e80e6fe5f5dc6c8264658a9bd5e934a2",
+  "fields": {
+    "value": "{\"name\": \"images/products/4-51-plus-32gb/4-51-plus-32gb.1_Plus_32Gb\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [442, 900]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||eaee7dc3d149bbf41208fcd30da6fd27",
+  "fields": {
+    "value": "{\"name\": \"cache/0a/13/0a1354537d59eda8f59752bbbbca7783.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [123, 250]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||f2fdc0ba063d251523c788cdba603554",
+  "fields": {
+    "value": "{\"name\": \"cache/e2/fd/e2fda78bc3c52eb7cf5de42e421471ea.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [183, 249]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||fad857cf776a66017cfd7e511a2ce74b",
+  "fields": {
+    "value": "{\"name\": \"cache/97/b8/97b896d6e189334fec63b3112e5fa9d3.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [124, 249]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||ff5dbb09512539a4975274b71d5fa301",
+  "fields": {
+    "value": "{\"name\": \"cache/dc/76/dc766d06a4b6acae3b1a8b7f5fbc252f.jpg\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [181, 204]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||image||ffae684ee9411fdfd221064855b7a6fa",
+  "fields": {
+    "value": "{\"name\": \"images/products/1-ipad-pro-129-1tb-wi-fi-cellular/1-ipad-pro-129-1tb_OUugTlU.922_1Tb_Wi-Fi__Cellular\", \"storage\": \"django.core.files.storage.FileSystemStorage\", \"size\": [585, 856]}"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||04269d06520047c4f9befd37edc8a98c",
+  "fields": {
+    "value": "[\"a84602080b7c83c830af0d7387cb7dd4\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||1696784c00573867c0a66b0e286e77c5",
+  "fields": {
+    "value": "[\"86aef5ebc261c5576b3f4076d4a0206d\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||3b0f1f29b9c052b480d85e7826bfd1ed",
+  "fields": {
+    "value": "[\"ce1414bebb0b0a53239c14bb2bd75f69\", \"fad857cf776a66017cfd7e511a2ce74b\", \"29cc6bb83030c8c7d5e59874e0707102\", \"54895b5ab138f0f9463ae23191fa422b\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||55000d38df6db4ce9949f1a938a73d99",
+  "fields": {
+    "value": "[\"b41394ed50717459f071cfdc54cab95d\", \"89f644fc63616c44fc288318c8579ce2\", \"5f262e6d52c20f429d234b556c7db99d\", \"852ecce15055d7702e583c187b51c300\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||5f0a5625d1b30dbac62cb4ea66118f4a",
+  "fields": {
+    "value": "[\"1004111555898077efed0a677293fc5d\", \"6ff7135ef3c99b44317c1e353cd5ba14\", \"6359d63d12d18800a91c363bbe476adb\", \"91fdadfbadb7ccc5a2450e8feadcae06\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||6f41a88666b923cf0c160a07392cd574",
+  "fields": {
+    "value": "[\"2f36ab8cdc4c229439e49b5da44420c1\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||7479752a0d17430c400e60d47207a842",
+  "fields": {
+    "value": "[\"7aedd4897f825f0912bb87df920ff97f\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||757646fdfb50874993f87f47c7cf3819",
+  "fields": {
+    "value": "[\"6dcf3a36dc72ac22211390cbd94dc5d3\", \"3af3197be4c69489b6edacf70e87cba2\", \"5ccc54e8c9a2917d3cabb9644cfdd8ef\", \"267976ec0d68841a235b580414327682\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||7ca91c5a5f3a3bc5678faddf53f5c7b5",
+  "fields": {
+    "value": "[\"c7fdc913956a5cea80559c498e9cf938\", \"502f1ee6f6a2753a0b80fd25dcae23d6\", \"2c7f1a0822ce87baaf1b604bfa21b363\", \"db4a73ea6ee66695a84e475f741d9dbd\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||82c0b13f20133f00068408af4d630c38",
+  "fields": {
+    "value": "[\"6c4935a596fd7d25f501b980f80b40fb\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||8ccb3fbfb5c6712917d9db682e92fdf4",
+  "fields": {
+    "value": "[\"160d0715f94ef477e60e2f789ff0bcf9\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||8dfaec7f1897d895e79f48504d6b3ed4",
+  "fields": {
+    "value": "[\"03ee64324407a0c994fdc8fabec8d1d9\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||8effc89a42e7822995e03cdd60f47858",
+  "fields": {
+    "value": "[\"5bfb31e53bd8c3f603a0b96f92b210f6\", \"3141e2770df0f2c3a0290adcb4a2a981\", \"9b02e2f8f19839488e06530b4e1a5f8f\", \"0fa3846b4f920e725220bfad30a314d1\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||b386e1137b8242141ae6ff963c719221",
+  "fields": {
+    "value": "[\"957f51bff2f43900512f18d89279415d\", \"0c888dec1a5bbbcbd940bd2875a59910\", \"ff5dbb09512539a4975274b71d5fa301\", \"461fff499bd4d9cf0af4c0290c721ec8\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||d7f242cbfeaf121e58be29464f54f2eb",
+  "fields": {
+    "value": "[\"3daa31405dd54107a368800d0c8a598e\", \"b8d1a6ea09947d8bc1ae9f50cd47c0ef\", \"687706b3f1e347645cbcd0868e5d576c\", \"240d6e019f9f6bd1f12029c5cad73e12\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||daa4682fbeb9f5c31d2022a326fbbd4a",
+  "fields": {
+    "value": "[\"f2fdc0ba063d251523c788cdba603554\", \"dfdb63aea3017d6c33d2f494bb01a0ed\", \"38788e3b7c34b1a9579ee3230ef7e2b4\", \"c251e4c7c2ef482184af7dceb5318454\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||dd88de9e06fb753f4d23e5e428d5b853",
+  "fields": {
+    "value": "[\"d2dce4e6dcebb9aadf3d43389ff24682\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||e38c4a84d8f372d5ebc5351ee12ca890",
+  "fields": {
+    "value": "[\"0b5601b21e0fa25af1bbbb0cca436a6e\", \"c89fe79f86a6cbd51925e0e381ff85ac\", \"c6dd3e62fbb0145fdfc3902a88b4b584\", \"de2b38a392f391024551ca84494a57cd\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||e71245f460dfca01705ea36f9d9fd772",
+  "fields": {
+    "value": "[\"0dc5749f8f641973a83c70bb56e2cf36\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||e80e6fe5f5dc6c8264658a9bd5e934a2",
+  "fields": {
+    "value": "[\"eaee7dc3d149bbf41208fcd30da6fd27\"]"
+  }
+},
+{
+  "model": "thumbnail.kvstore",
+  "pk": "sorl-thumbnail||thumbnails||ffae684ee9411fdfd221064855b7a6fa",
+  "fields": {
+    "value": "[\"cb4cfb47ba8c7334820452ba44cd5f06\", \"cb78d13b9b67554629bf182fa1d0eca7\", \"498dfbc0a64e4df3cfe68388ecb0f2cc\", \"5dfd71a1cd2685b9cddb2640e9a714b6\"]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add \u0411\u0440\u0435\u043d\u0434",
+    "content_type": 6,
+    "codename": "add_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change \u0411\u0440\u0435\u043d\u0434",
+    "content_type": 6,
+    "codename": "change_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete \u0411\u0440\u0435\u043d\u0434",
+    "content_type": 6,
+    "codename": "delete_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view \u0411\u0440\u0435\u043d\u0434",
+    "content_type": 6,
+    "codename": "view_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add \u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f",
+    "content_type": 7,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change \u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f",
+    "content_type": 7,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete \u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f",
+    "content_type": 7,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view \u041a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f",
+    "content_type": 7,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add \u0422\u043e\u0432\u0430\u0440",
+    "content_type": 8,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change \u0422\u043e\u0432\u0430\u0440",
+    "content_type": 8,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete \u0422\u043e\u0432\u0430\u0440",
+    "content_type": 8,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view \u0422\u043e\u0432\u0430\u0440",
+    "content_type": 8,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add \u041e\u0442\u0437\u044b\u0432",
+    "content_type": 9,
+    "codename": "add_feedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change \u041e\u0442\u0437\u044b\u0432",
+    "content_type": 9,
+    "codename": "change_feedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete \u041e\u0442\u0437\u044b\u0432",
+    "content_type": 9,
+    "codename": "delete_feedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view \u041e\u0442\u0437\u044b\u0432",
+    "content_type": 9,
+    "codename": "view_feedback"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add \u0421\u0442\u0430\u0442\u044c\u044f",
+    "content_type": 10,
+    "codename": "add_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change \u0421\u0442\u0430\u0442\u044c\u044f",
+    "content_type": 10,
+    "codename": "change_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete \u0421\u0442\u0430\u0442\u044c\u044f",
+    "content_type": 10,
+    "codename": "delete_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view \u0421\u0442\u0430\u0442\u044c\u044f",
+    "content_type": 10,
+    "codename": "view_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add \u0417\u0430\u043a\u0430\u0437",
+    "content_type": 11,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change \u0417\u0430\u043a\u0430\u0437",
+    "content_type": 11,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete \u0417\u0430\u043a\u0430\u0437",
+    "content_type": 11,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view \u0417\u0430\u043a\u0430\u0437",
+    "content_type": 11,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add \u0422\u043e\u0432\u0430\u0440",
+    "content_type": 12,
+    "codename": "add_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change \u0422\u043e\u0432\u0430\u0440",
+    "content_type": 12,
+    "codename": "change_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete \u0422\u043e\u0432\u0430\u0440",
+    "content_type": 12,
+    "codename": "delete_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view \u0422\u043e\u0432\u0430\u0440",
+    "content_type": 12,
+    "codename": "view_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add custom user",
+    "content_type": 13,
+    "codename": "add_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change custom user",
+    "content_type": 13,
+    "codename": "change_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete custom user",
+    "content_type": 13,
+    "codename": "delete_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view custom user",
+    "content_type": 13,
+    "codename": "view_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add kv store",
+    "content_type": 14,
+    "codename": "add_kvstore"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change kv store",
+    "content_type": 14,
+    "codename": "change_kvstore"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete kv store",
+    "content_type": 14,
+    "codename": "delete_kvstore"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view kv store",
+    "content_type": 14,
+    "codename": "view_kvstore"
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$8EGtuaPfwhVp$VcmUzGGbtpdKwxay7LbtZziTuUuvFAzdnLtmplw3Kd0=",
+    "last_login": "2019-11-03T12:06:27.227Z",
+    "is_superuser": true,
+    "email": "admin@mail.ru",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-10-27T09:10:27.779Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$Achqu4hRSLoR$ouwgwPRE+RPb07EuFbumvIm7n9EpXHp9KwaT/1Jp9YI=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "test_user_1@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-10-27T09:25:08.244Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$I6G56VH6g7U2$Gf0C+8kyxtNp0IXBy23eQKPXpqY+XJeuobxjko+WlIo=",
+    "last_login": "2019-10-27T10:04:41.098Z",
+    "is_superuser": false,
+    "email": "user_2@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-10-27T09:51:33.842Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$K1iOj6IgEsLu$pK4NOrwdiGiAJlhpAD1IMqsNakfbVIi+Q1cW26S3Pak=",
+    "last_login": "2019-10-27T10:05:16.258Z",
+    "is_superuser": false,
+    "email": "user_3@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-10-27T10:05:02.092Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$150000$J9UP7fBav16F$QcLbjymOPNOmXQ7rasBnyuR0sspqKlAW15HOGkYJCxQ=",
+    "last_login": "2019-10-27T10:13:04.642Z",
+    "is_superuser": false,
+    "email": "user_4@mail.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2019-10-27T10:12:57.945Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 20,
+  "fields": {
+    "user": 1,
+    "created": "2019-11-03T12:15:35.273Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 21,
+  "fields": {
+    "user": 1,
+    "created": "2019-11-03T12:16:21.935Z"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2019-10-27T09:23:31.010Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "admin@mail.ru",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2019-10-27T09:25:08.340Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "test_user_1@mail.ru",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2019-10-27T09:25:16.637Z",
+    "user": 1,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "test_user_1@mail.ru",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2019-10-27T18:16:08.299Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "\u0413\u0430\u0434\u0436\u0435\u0442\u044b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2019-10-27T18:16:10.466Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2019-10-27T18:16:22.384Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "Apple",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2019-10-27T18:17:50.015Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Apple iPhone 8 Plus 64Gb",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2019-10-27T19:14:52.560Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u043d\u0443\u0436\u043d\u044b \u0432\u0441\u0435\u043c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2019-10-29T19:49:44.268Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Huawei",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2019-10-29T19:49:51.396Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "Samsung",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2019-10-29T19:50:03.102Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "4",
+    "object_repr": "Nokia",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2019-10-29T19:50:17.528Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "5",
+    "object_repr": "LG",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2019-10-29T19:51:18.208Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "6",
+    "object_repr": "Meizu",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2019-10-29T19:51:36.140Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "7",
+    "object_repr": "Xiaomi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2019-10-29T19:52:02.083Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "\u0423\u043c\u043d\u044b\u0435 \u0447\u0430\u0441\u044b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2019-10-29T19:52:24.107Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "\u041f\u043b\u0430\u043d\u0448\u0435\u0442\u044b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2019-10-29T19:52:35.145Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2019-10-29T19:52:49.558Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "\u041d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 \u043f\u0440\u043e\u0432\u043e\u0434\u043d\u044b\u0435",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2019-10-29T19:53:01.892Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "\u041d\u0430\u0443\u0448\u043d\u0438\u043a\u0438 \u0431\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u044b\u0435",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2019-10-29T19:53:19.727Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "\u041e\u0434\u0435\u0436\u0434\u0430",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2019-10-29T19:53:47.894Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "\u0423\u043c\u043d\u0430\u044f \u043e\u0434\u0435\u0436\u0434\u0430",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2019-10-29T19:54:01.035Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "\u041d\u0430 \u043a\u0430\u0436\u0434\u044b\u0439 \u0434\u0435\u043d\u044c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2019-10-29T19:55:26.496Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Huawei P30 Pro 256Gb",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2019-10-29T19:57:08.944Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Apple iPhone 8 Plus 64Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"description\", \"price\", \"image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2019-10-29T19:59:27.678Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "LG G7 Fit 32Gb",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2019-10-29T20:01:32.597Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Meizu 16th 64Gb",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2019-10-29T20:04:24.979Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Nokia 5.1 Plus 32Gb",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2019-10-29T20:06:08.485Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Samsung Galaxy Note 10+ 256Gb",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2019-10-29T20:07:59.320Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Xiaomi Mi 9T Pro 128Gb",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2019-10-29T20:10:11.467Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Apple iPhone 11 Pro Max 512Gb",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2019-10-29T20:10:47.735Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Apple iPhone 11 Pro Max 512Gb",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2019-10-30T18:57:19.392Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Apple iPad Pro 12.9\" 1Tb Wi-Fi + Cellular",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2019-10-30T19:01:13.334Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Apple iPad mini 2019 64Gb Wi-Fi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2019-10-30T19:03:46.725Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Huawei MediaPad M5 10.0 Lite",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2019-10-30T19:06:58.204Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Samsung Galaxy Tab S6 SM-T865N, 6\u0413\u0431, 128GB",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2019-10-30T19:13:44.769Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Apple Watch Series 5 44\u043c\u043c, \u0441\u0435\u0440\u0435\u0431\u0440\u0438\u0441\u0442\u044b\u0439 / \u0431\u0435\u043b\u044b\u0439",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2019-10-30T19:19:47.941Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Samsung Galaxy Watch 46\u043c\u043c, 1.3\", \u0441\u0435\u0440\u0435\u0431\u0440\u0438\u0441\u0442\u044b\u0439 / \u0447\u0435\u0440\u043d\u044b\u0439",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2019-10-30T19:32:52.628Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "\u041d\u0430 \u043a\u0430\u0436\u0434\u044b\u0439 \u0434\u0435\u043d\u044c",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2019-10-30T19:32:52.631Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "\u041e\u0434\u0435\u0436\u0434\u0430",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2019-10-30T19:32:52.633Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "\u0423\u043c\u043d\u0430\u044f \u043e\u0434\u0435\u0436\u0434\u0430",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2019-10-30T19:33:03.411Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "\u0414\u043b\u044f \u0434\u043e\u043c\u0430",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2019-10-30T19:33:30.222Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "\u0420\u043e\u0431\u043e\u0442 \u043f\u044b\u043b\u0435\u0441\u043e\u0441",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2019-10-30T19:34:33.757Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "13",
+    "object_repr": "\u0423\u043c\u043d\u0430\u044f \u043a\u043e\u043b\u043e\u043d\u043a\u0430",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2019-10-30T19:35:37.051Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "\u0420\u043e\u0431\u043e\u0442-\u043f\u044b\u043b\u0435\u0441\u043e\u0441",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2019-10-30T19:36:41.152Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "8",
+    "object_repr": "Philips",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2019-10-30T19:38:09.481Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Philips SmartPro Compact",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2019-10-30T19:39:04.846Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "9",
+    "object_repr": "Irobot",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2019-10-30T19:40:39.539Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Irobot Roomba i7,",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2019-10-30T19:46:59.453Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "10",
+    "object_repr": "Beats",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2019-10-30T19:48:05.744Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "Beats Studio3 Wireless",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2019-10-30T19:51:05.953Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "Beats Solo3 Wireless",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2019-10-30T19:52:43.168Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "Apple AirPods, with Charging Case",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2019-10-30T19:56:14.128Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "11",
+    "object_repr": "SENNHEISER",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2019-10-30T19:56:50.294Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "SENNHEISER HD 800 S, 6.3 \u043c\u043c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2019-10-30T19:59:55.056Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "12",
+    "object_repr": "PIONEER",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2019-10-30T20:02:00.064Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "PIONEER SE-LTC3R, Lightning",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2019-10-31T11:11:42.645Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u043d\u0443\u0436\u043d\u044b \u0432\u0441\u0435\u043c",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"products\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2019-10-31T11:18:08.117Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u043d\u0443\u0436\u043d\u044b \u0432\u0441\u0435\u043c",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2019-10-31T11:23:01.654Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "\u041a\u0442\u043e \u0437\u043d\u0430\u0435\u0442 \u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0440\u0435\u043c\u044f?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2019-10-31T11:26:01.669Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "\u041a\u0443\u0434\u0430 \u0436 \u0431\u0435\u0437 \u043c\u0443\u0437\u044b\u043a\u0438?!",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2019-10-31T11:26:32.316Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "\u0421\u043c\u0430\u0440\u0442\u0444\u043e\u043d\u044b \u043d\u0443\u0436\u043d\u044b \u0432\u0441\u0435\u043c",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"published\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2019-10-31T11:29:25.761Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Apple iPad mini 2019 64Gb Wi-Fi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"category\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2019-10-31T12:37:37.259Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "\u0412\u0441\u0435 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0435 \u0432\u0441\u0435\u0433\u0434\u0430 \u0441 \u0432\u0430\u043c\u0438.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2019-10-31T12:38:15.593Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "\u0412\u0441\u0435 \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0435 \u0432\u0441\u0435\u0433\u0434\u0430 \u0441 \u0432\u0430\u043c\u0438.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"products\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2019-11-02T11:39:36.407Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "Apple AirPods",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"model\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2019-11-02T11:39:45.397Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Apple Watch Series 5 44\u043c\u043c",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"model\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2019-11-02T11:40:01.110Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Apple iPad Pro 12.9\" 1Tb Wi-Fi + Cellular",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2019-11-02T11:40:29.507Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Samsung Galaxy Watch 46\u043c\u043c, 1.3\"",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"model\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.701Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Feedback object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.703Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Feedback object (2)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.705Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Feedback object (3)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.707Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Feedback object (4)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.708Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Feedback object (5)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.710Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Feedback object (6)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.712Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Feedback object (7)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.713Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Feedback object (8)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.715Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Feedback object (9)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.717Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Feedback object (10)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.719Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Feedback object (11)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.721Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Feedback object (12)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.722Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Feedback object (13)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.723Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Feedback object (14)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.724Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Feedback object (15)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.725Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "Feedback object (16)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.726Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": "Feedback object (17)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.727Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "Feedback object (18)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2019-11-03T12:06:52.728Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "Feedback object (19)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.823Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Order 16",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.824Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "Order 15",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.826Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "14",
+    "object_repr": "Order 14",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.827Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Order 13",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.828Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "Order 12",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.829Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "Order 11",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.831Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "Order 10",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.832Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "Order 9",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.833Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Order 8",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.835Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Order 7",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.836Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Order 6",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.837Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Order 5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.839Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Order 4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.840Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Order 3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.841Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Order 2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2019-11-03T12:09:23.842Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Order 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2019-11-03T12:10:56.809Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "Order 17",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440\", \"object\": \"6\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2019-11-03T12:11:21.972Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "Order 17",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2019-11-03T12:14:15.060Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "18",
+    "object_repr": "Order 18",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2019-11-03T12:15:02.154Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "19",
+    "object_repr": "Order 19",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.540Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "19",
+    "object_repr": "Order 19",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.546Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "17",
+    "object_repr": "Order 17",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.548Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "16",
+    "object_repr": "Order 16",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.549Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "15",
+    "object_repr": "Order 15",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.551Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "14",
+    "object_repr": "Order 14",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.553Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "Order 13",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.554Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "Order 12",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.556Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "Order 11",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.558Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "Order 10",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.560Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "Order 9",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.562Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "Order 8",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.563Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "Order 7",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.565Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "Order 6",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.566Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "Order 5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.568Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "Order 4",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.570Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Order 3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.573Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Order 2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2019-11-03T12:15:08.574Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Order 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2019-11-03T12:16:43.106Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "21",
+    "object_repr": "Order 21",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+}
+]
