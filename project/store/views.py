@@ -31,19 +31,21 @@ def product_detail(request, pk):
         new_feedback.product = Product.objects.get(pk=pk)
         new_feedback.save()
 
-    context['form'] = FeedbackForm()
-
-    if not request.session.get('reviewed_products', False):
-        request.session["reviewed_products"] = [True]
-        context['is_review_exist'] = False
+        request.session["reviewed_products"] += [pk]
+        context['is_review_exist'] = True
 
         return render(request, template_name, context)
 
-    if pk in request.session["reviewed_products"]:
-        context['is_review_exist'] = True
-    else:
-        request.session["reviewed_products"] += [pk]
+    if not request.session.get('reviewed_products', False):
+        request.session["reviewed_products"] = []
         context['is_review_exist'] = False
+        context['form'] = FeedbackForm()
+    else:
+        if pk not in request.session["reviewed_products"]:
+            context['is_review_exist'] = False
+            context['form'] = FeedbackForm()
+        else:
+            context['is_review_exist'] = True
 
     return render(request, template_name, context)
 
