@@ -1,3 +1,22 @@
 body {
   padding-top: 3.5rem;
 }
+
+H1, H2, H3, H4 {
+  color: #343a40;
+}
+
+a.gray-dark-link {
+  color: #343a40;
+  text-decoration: none;
+}
+
+a > h3:hover {
+  color: #276096;
+}
+
+H3.product-title {
+  height: 2.7em;
+}
+
+

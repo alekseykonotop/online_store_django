@@ -5,34 +5,31 @@
 {% block title %}Главная страница{% endblock %}
 
 {% block content %}
-    <main role="main" style="margin-top:4.0em">
-      {% for article in articles %}
-        <div class="jumbotron">
-          <div class="container">
-            <h1 class="display-4">{{ article.title }}</h1>
-              <p>{{ article.content|safe }}</p>
-          </div>
-        </div>
-        {% if article.products %}
-            <div class="container mb-5">
-                <div class="row">
-                    {% for product in article.products.all %}
-                        <div class="col-md-4">
-                          <a style="color:#343a40; text-decoration:none" href="{{ product.get_absolut_url }}">
-                            <h3 style="height:2.7em">{{ product }}</h3>
-                            {% thumbnail product.image 'x250' as im %}
-
-                                  <img src="{{ im.url }}" class="image-detail">
-
-                            {% endthumbnail %}
-                          </a>
-                          <p style="margin-top:20px">Стоимость: {{ product.price }} руб.</p>
-                        </div>
-                    {% endfor %}
-                </div>
+<main role="main">
+  {% for article in articles %}
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-4">{{ article.title }}</h1>
+          <p>{{ article.content|safe }}</p>
+      </div>
+    </div>
+    {% if article.products %}
+      <div class="container mb-5">
+        <div class="row">
+          {% for product in article.products.all %}
+            <div class="col-md-4">
+              <a class="gray-dark-link" href="{{ product.get_absolut_url }}">
+                <h3 class="product-title">{{ product }}</h3>
+                {% thumbnail product.image 'x250' as im %}
+                  <img src="{{ im.url }}" class="image-detail">
+                {% endthumbnail %}
+              </a>
+              <p class="mt-3">Стоимость: {{ product.price }} руб.</p>
             </div>
-        {% endif %}
-      {% endfor %}
-
-    </main>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</main>
 {% endblock %}
