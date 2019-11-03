@@ -4,7 +4,7 @@ from django.conf import settings
 
 
 class Order(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='orders', verbose_name='Пользователь')
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.DO_NOTHING, related_name='orders', verbose_name='Пользователь')
     created = models.DateTimeField(auto_now_add=True, verbose_name='Дата заказа')
 
     class Meta:
