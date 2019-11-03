@@ -22,5 +22,13 @@ python manage.py migrate
 python manage.py runserver
 ```
 
+К проекту прилагается дамп данных с тестовым наполнением fixtures.json
+
+Для импорта тестовых данных выполните комманду:
+```bash
+python manage.py loaddata fixtures.json
+```
+
+
 
 
