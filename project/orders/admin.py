@@ -13,7 +13,7 @@ class OrderAdmin(admin.ModelAdmin):
     inlines = [OrderItemInline]
 
     def get_items_count(self, order):
-        return f'{order.items.count()}'
+        return sum([item.quantity for item in order.items.all()])
 
     get_items_count.short_description = 'Колличество позиций, шт.'
 
