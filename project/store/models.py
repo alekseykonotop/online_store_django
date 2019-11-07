@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 from ckeditor_uploader.fields import RichTextUploadingField
 
 
@@ -17,7 +18,7 @@ class Category(models.Model):
         return self.name
 
     def get_absolut_url(self):
-        return f'category/{self.pk}'
+        return reverse('store:category_detail', kwargs={'pk': self.pk})
 
 
 class Brand(models.Model):
@@ -31,9 +32,6 @@ class Brand(models.Model):
 
     def __str__(self):
         return self.name
-
-    def get_absolut_url(self):
-        return f'/store/brand/{self.pk}'
 
 
 def image_forlder(instance, filename):
@@ -62,7 +60,7 @@ class Product(models.Model):
         return f'{self.brand} {self.model}'
 
     def get_absolut_url(self):
-        return f'product/{self.pk}'
+        return reverse('store:product_detail', kwargs={'pk': self.pk})
 
 
 class Article(models.Model):
