@@ -115,8 +115,8 @@
   "model": "sessions.session",
   "pk": "0549fij5qqoi21g0cs106uchz84bq221",
   "fields": {
-    "session_data": "ZTJmZGE4NmRkMDAxNmM5NGFjOGVlOTljMTg2YWMyM2E0ZDYzZGY3Yzp7InJldmlld2VkX3Byb2R1Y3RzIjpbXSwiX2F1dGhfdXNlcl9pZCI6IjEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6IjViZjI3ZDkyN2E5MGY4N2MyNmYzMzdmOTA5NGZlYjc4MWYzNjgzYWQiLCJjYXJ0Ijp7fX0=",
-    "expire_date": "2019-11-17T12:45:22.586Z"
+    "session_data": "NGM0Y2JlOGNlYjNkMDRkMTU5NjE0MGU5NWU3NTljMzU1MGM3OTY3YTp7InJldmlld2VkX3Byb2R1Y3RzIjpbOF0sIl9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI1YmYyN2Q5MjdhOTBmODdjMjZmMzM3ZjkwOTRmZWI3ODFmMzY4M2FkIiwiY2FydCI6e319",
+    "expire_date": "2019-11-21T19:17:21.185Z"
   }
 },
 {
@@ -736,6 +736,36 @@
   }
 },
 {
+  "model": "store.feedback",
+  "pk": 21,
+  "fields": {
+    "product": 8,
+    "name": "\u0410\u043b\u0435\u043a\u0441\u0435\u0439",
+    "text": "\u0425\u043e\u0440\u043e\u0448\u0438\u0439 \u0442\u0435\u043b\u0435\u0444\u043e\u043d \u0441 \u043e\u0447\u0435\u043d\u044c \u043a\u0440\u0443\u0442\u043e\u0439 \u043a\u0430\u043c\u0435\u0440\u043e\u0439. \r\n\u0414\u0438\u0437\u0430\u0439\u043d \u043d\u0430 \u0432\u044b\u0441\u043e\u0442\u0435, \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u043e \u0441\u0431\u043e\u0440\u043a\u0438 \u043e\u0442\u043b\u0438\u0447\u043d\u043e\u0435.\r\n\u0418\u0437 \u043c\u0438\u043d\u0443\u0441\u043e\u0432, \u0442\u043e\u043b\u044c\u043a\u043e \u0446\u0435\u043d\u0430.",
+    "rating": 4
+  }
+},
+{
+  "model": "store.feedback",
+  "pk": 22,
+  "fields": {
+    "product": 8,
+    "name": "\u0410\u043d\u043e\u043d\u0438\u043c",
+    "text": "\u0421\u0430\u043c\u0430\u044f \u0442\u043e\u043f\u043e\u0432\u0430\u044f \u043c\u043e\u0434\u0435\u043b\u044c \u043e\u0442 \u043e\u0433\u0440\u044b\u0437\u043a\u0430. Must have!!!",
+    "rating": 5
+  }
+},
+{
+  "model": "store.feedback",
+  "pk": 23,
+  "fields": {
+    "product": 8,
+    "name": "\u0421\u0435\u0440\u0433\u0435\u0439",
+    "text": "\u041c\u043e\u0434\u0435\u043b\u044c \u0442\u0430\u043a \u0441\u0435\u0431\u0435. \u041d\u0438\u0447\u0435\u0433\u043e \u043d\u043e\u0432\u043e\u0433\u043e \u0432 \u043d\u0435\u0439 \u043d\u0435\u0442, \u043b\u0438\u0448\u044c \u043d\u0435\u0437\u043d\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435 \u0434\u043e\u0440\u0430\u0431\u043e\u0442\u043a\u0438. \u041e\u0434\u043d\u0430\u043a\u043e, \u0446\u0435\u043d\u0430 \u0432\u043e\u0437\u0440\u043e\u0441\u043b\u0430 \u0437\u043d\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u043e.",
+    "rating": 3
+  }
+},
+{
   "model": "orders.orderitem",
   "pk": 9,
   "fields": {
@@ -782,6 +812,36 @@
     "order": 21,
     "product": 9,
     "price": "139990.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 14,
+  "fields": {
+    "order": 22,
+    "product": 8,
+    "price": "131990.00",
+    "quantity": 2
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 15,
+  "fields": {
+    "order": 23,
+    "product": 10,
+    "price": "32790.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 16,
+  "fields": {
+    "order": 23,
+    "product": 1,
+    "price": "44790.00",
     "quantity": 1
   }
 },
@@ -2050,6 +2110,22 @@
   "fields": {
     "user": 1,
     "created": "2019-11-03T12:16:21.935Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 22,
+  "fields": {
+    "user": 1,
+    "created": "2019-11-03T16:57:38.520Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 23,
+  "fields": {
+    "user": 1,
+    "created": "2019-11-07T18:49:44.723Z"
   }
 },
 {
@@ -3688,6 +3764,71 @@
     "object_repr": "Order 21",
     "action_flag": 2,
     "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2019-11-04T10:13:20.760Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "22",
+    "object_repr": "Order 22",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2019-11-07T18:51:03.914Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "Feedback object (20)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2019-11-07T19:14:56.629Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "21",
+    "object_repr": "Feedback object (21)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2019-11-07T19:15:44.008Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "22",
+    "object_repr": "Feedback object (22)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2019-11-07T19:17:02.965Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "23",
+    "object_repr": "Feedback object (23)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
   }
 }
 ]
